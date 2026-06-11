@@ -1,10 +1,10 @@
-<h1 align="center">Hi, I'm Sravani Kamjula 👋</h1>h1>
+# Hi, I'm Sravani Kamjula 👋
 
-<p align="center">
-  <b>Data Analyst | SQL · Python · Power BI · Snowflake · Tableau</b>b><br>
-    Building analytics pipelines, fraud detection systems & data quality automation<br>
-      📍 United States &nbsp;|&nbsp; 🔍 Open to Data Analyst Roles
-</p>p>
+**Data Analyst | SQL · Python · Power BI · Snowflake · Tableau**
+
+Building analytics pipelines, fraud detection systems & data quality automation
+
+📍 United States | 🔍 Open to Data Analyst Roles
 
 ---
 
@@ -37,4 +37,4 @@
 
 ---
 
-<p align="center"><i>"Turning raw data into decisions — one query at a time."</i>i></p>p></i></b>
+> *"Turning raw data into decisions — one query at a time."*
