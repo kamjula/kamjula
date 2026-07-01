@@ -2,7 +2,7 @@
 
 I'm a Data Analyst with a background in SQL, Python, Power BI, Snowflake, and Tableau. I enjoy working with messy data and turning it into something useful — whether that's a clean dashboard, a fraud detection system, or an automated pipeline.
 
-I'm based in the US and actively looking for Data Analyst roles.
+I'm based in the US and actively looking for Data Analyst/Data Scientist roles.
 
 ---
 
