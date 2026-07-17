@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-illustration.png" width="300" alt="Sravani - Data Analyst Illustration" />
+  <img src="./assets/profile-illustration.png" width="320" alt="Sravani - Data Analyst Illustration" />
 </div>
 
 <br>
