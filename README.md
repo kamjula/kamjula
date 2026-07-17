@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/female-data-engineer.svg" width="340" alt="Professional female data engineer working on a laptop with analytics dashboards" />
+  <img src="./assets/profile-illustration.png" width="420" alt="Sravani - Data Analyst Illustration" />
 </div>
 
 <br>
