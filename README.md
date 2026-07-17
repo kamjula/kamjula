@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="assets/Sravani_portfolio.png" width="320" alt="Sravani - Data Analyst Illustration" />
+  <img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani - Data Analyst Illustration">
 </div>
+
+<br>
 
 # Hi, I'm Sravani 👋
 
