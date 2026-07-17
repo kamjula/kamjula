@@ -44,13 +44,12 @@ I'm based in the U.S. and open to Data Analyst, Analytics Engineer, Data Quality
 | [🛒 E-Commerce Sales Analysis](https://github.com/kamjula/Ecommerce-sales-analysis) | End-to-end analysis — EDA, regional trends, category performance, and business insights | Python · SQL · Tableau |
 | [🔧 Self-Healing Data Pipeline](https://github.com/kamjula/Self-Healing-Data-Pipeline) | A pipeline that automatically finds and fixes data issues — missing values, drift, duplicates | Python · SQL |
 | [☁️ Amazon Data Analyst Prep](https://github.com/kamjula/Amazon-data-analyst-prep) | 30 days of SQL, Python, Tableau and case study practice for a Data Analyst interview | SQL · Python · Tableau |
-## 📊 GitHub Stats
+---
+## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamjula&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamjula&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamjula&theme=github" alt="Sravani GitHub activity summary" />
 </p>
----
 
 ## 📬 Let's Connect
 
