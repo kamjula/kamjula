@@ -1,191 +1,172 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#F6D2AC"/>
-<stop offset="1" stop-color="#E8B78C"/>
-</linearGradient>
-<linearGradient id="hairGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#3B2A1E"/>
-<stop offset="1" stop-color="#17110B"/>
-</linearGradient>
-<linearGradient id="hairGradLight" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#4A3524"/>
-<stop offset="1" stop-color="#2A1D14"/>
-</linearGradient>
-<linearGradient id="blazerGrad" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#28406B"/>
-<stop offset="1" stop-color="#152238"/>
-</linearGradient>
-<linearGradient id="shirtGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#E4F1FB"/>
-<stop offset="1" stop-color="#C7E3F5"/>
-</linearGradient>
-<linearGradient id="pantsGrad" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#22314A"/>
-<stop offset="1" stop-color="#141C2B"/>
-</linearGradient>
-<linearGradient id="deskGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#FFFFFF"/>
-<stop offset="1" stop-color="#E7EBF0"/>
-</linearGradient>
-<linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#1B2A4A"/>
-<stop offset="1" stop-color="#0D1626"/>
-</linearGradient>
-<linearGradient id="keyboardGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#EDEFF2"/>
-<stop offset="1" stop-color="#D7DCE2"/>
-</linearGradient>
-<linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#22D3EE"/>
-<stop offset="1" stop-color="#2563EB"/>
-</linearGradient>
-<linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#C4CCD6"/>
-<stop offset="1" stop-color="#9CA7B4"/>
-</linearGradient>
-<filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
-<feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1B2A4A" flood-opacity="0.15"/>
-</filter>
-<filter id="groundShadow" x="-50%" y="-50%" width="200%" height="200%">
-<feGaussianBlur stdDeviation="18"/>
-</filter>
+<linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F5F7FA"/></linearGradient>
+<linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F2C39B"/><stop offset="100%" stop-color="#CC8E5C"/></linearGradient>
+<linearGradient id="skinGradDark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E4B085"/><stop offset="100%" stop-color="#B87A4C"/></linearGradient>
+<radialGradient id="faceHighlight" cx="42%" cy="32%" r="60%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<linearGradient id="hairGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3A2416"/><stop offset="100%" stop-color="#170F0A"/></linearGradient>
+<linearGradient id="hairHighlight" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#6B4830"/><stop offset="100%" stop-color="#3A2416"/></linearGradient>
+<linearGradient id="blazerGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#28396A"/><stop offset="100%" stop-color="#152140"/></linearGradient>
+<linearGradient id="blazerHighlight" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3E5490" stop-opacity="0.55"/><stop offset="100%" stop-color="#3E5490" stop-opacity="0"/></linearGradient>
+<linearGradient id="deskGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E9EDF3"/><stop offset="100%" stop-color="#DCE2EB"/></linearGradient>
+<linearGradient id="laptopBezel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#28405E"/><stop offset="100%" stop-color="#141F35"/></linearGradient>
+<linearGradient id="metallicSheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/><stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.14"/></linearGradient>
+<linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F7F9FC"/><stop offset="100%" stop-color="#E7ECF3"/></linearGradient>
+<linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#2563EB"/></linearGradient>
+<linearGradient id="navyGradSoft" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#1B2A4A"/></linearGradient>
+<filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="10"/></filter>
+<filter id="softShadowStrong" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="14"/></filter>
 </defs>
-<rect width="1024" height="1024" fill="#FFFFFF"/>
-<ellipse cx="512" cy="945" rx="270" ry="34" fill="#1B2A4A" opacity="0.1" filter="url(#groundShadow)"/>
-<g transform="translate(60,60) scale(0.9)" filter="url(#softShadow)" opacity="0.9">
-<ellipse cx="45" cy="55" rx="42" ry="30" fill="url(#accentGrad)"/>
-<ellipse cx="95" cy="35" rx="52" ry="36" fill="url(#accentGrad)"/>
-<ellipse cx="145" cy="55" rx="36" ry="26" fill="url(#accentGrad)"/>
-<rect x="35" y="55" width="145" height="38" rx="19" fill="url(#accentGrad)"/>
+<rect x="0" y="0" width="1024" height="1024" fill="url(#bgGrad)"/>
+<ellipse cx="512" cy="860" rx="330" ry="26" fill="#1B2A4A" opacity="0.10" filter="url(#softShadow)"/>
+<g transform="translate(158,278)" opacity="0.95">
+<rect x="-52" y="-26" width="104" height="52" rx="14" fill="#FFFFFF" stroke="#DCE2EB" stroke-width="1.5"/>
+<rect x="-52" y="-26" width="104" height="52" rx="14" fill="url(#cyanGrad)" opacity="0.12"/>
+<text x="0" y="7" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#1B2A4A" text-anchor="middle">SQL</text>
 </g>
-<g transform="translate(810,68) scale(0.92)" filter="url(#softShadow)" opacity="0.92">
-<rect x="0" y="0" width="105" height="105" rx="20" fill="url(#blazerGrad)"/>
-<rect x="20" y="20" width="65" height="65" rx="10" fill="none" stroke="url(#accentGrad)" stroke-width="3"/>
-<circle cx="52.5" cy="52.5" r="12" fill="url(#accentGrad)"/>
-<line x1="52.5" y1="0" x2="52.5" y2="20" stroke="url(#accentGrad)" stroke-width="3"/>
-<line x1="52.5" y1="85" x2="52.5" y2="105" stroke="url(#accentGrad)" stroke-width="3"/>
-<line x1="0" y1="52.5" x2="20" y2="52.5" stroke="url(#accentGrad)" stroke-width="3"/>
-<line x1="85" y1="52.5" x2="105" y2="52.5" stroke="url(#accentGrad)" stroke-width="3"/>
+<g transform="translate(862,300)" opacity="0.95">
+<circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#DCE2EB" stroke-width="1.5"/>
+<path d="M-14,-16 q0,-10 14,-10 q14,0 14,10 v10 h-22 v6 h30 q6,0 6,10 v10 q0,10 -14,10 h-6 v-8 h6 q4,0 4,-4 v-8 q0,-4 -4,-4 h-22 q-6,0 -6,-8 v-14 z" fill="#2563EB"/>
+<path d="M14,16 q0,10 -14,10 q-14,0 -14,-10 v-10 h22 v-6 h-30 q-6,0 -6,-10 v-10 q0,-10 14,-10 h6 v8 h-6 q-4,0 -4,4 v8 q0,4 4,4 h22 q6,0 6,8 v14 z" fill="#22D3EE"/>
 </g>
-<g transform="translate(457,22) scale(0.95)" filter="url(#softShadow)" opacity="0.92">
-<rect x="0" y="0" width="120" height="42" rx="21" fill="url(#blazerGrad)"/>
-<text x="60" y="27" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SQL</text>
+<g transform="translate(230,150)" opacity="0.9">
+<path d="M-46,10 a24,24 0 0 1 4,-47 a30,30 0 0 1 57,-8 a22,22 0 0 1 21,42 z" fill="#FFFFFF" stroke="#B0BEC5" stroke-width="2.5"/>
 </g>
-<g transform="translate(915,400) scale(0.9)" filter="url(#softShadow)" opacity="0.9">
-<ellipse cx="0" cy="0" rx="44" ry="14" fill="url(#accentGrad)"/>
-<rect x="-44" y="0" width="88" height="90" fill="#DCEBF7"/>
-<ellipse cx="0" cy="90" rx="44" ry="14" fill="url(#accentGrad)"/>
-<ellipse cx="0" cy="30" rx="44" ry="14" fill="none" stroke="#B8D6EA" stroke-width="1.5"/>
-<ellipse cx="0" cy="60" rx="44" ry="14" fill="none" stroke="#B8D6EA" stroke-width="1.5"/>
+<g transform="translate(846,520)" opacity="0.92">
+<ellipse cx="0" cy="-30" rx="30" ry="11" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<path d="M-30,-30 v40 a30,11 0 0 0 60,0 v-40" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<ellipse cx="0" cy="10" rx="30" ry="11" fill="none" stroke="#2563EB" stroke-width="1.5" opacity="0.5"/>
 </g>
-<g transform="translate(30,468) scale(0.92)" filter="url(#softShadow)" opacity="0.92">
-<rect x="0" y="0" width="165" height="125" rx="16" fill="#FFFFFF"/>
-<rect x="16" y="16" width="48" height="7" rx="3.5" fill="#B0BEC5"/>
-<rect x="16" y="78" width="15" height="32" rx="3" fill="url(#accentGrad)"/>
-<rect x="38" y="63" width="15" height="47" rx="3" fill="#2563EB"/>
-<rect x="60" y="48" width="15" height="62" rx="3" fill="url(#accentGrad)"/>
-<polyline points="92,98 110,80 124,89 142,54" fill="none" stroke="#2563EB" stroke-width="2.5"/>
-<circle cx="142" cy="54" r="4" fill="#22D3EE"/>
+<g transform="translate(178,660)" opacity="0.92">
+<polygon points="0,-34 29,-17 29,17 0,34 -29,17 -29,-17" fill="#FFFFFF" stroke="url(#navyGradSoft)" stroke-width="2.5"/>
+<circle cx="0" cy="0" r="11" fill="none" stroke="#22D3EE" stroke-width="2.5"/>
+<circle cx="0" cy="0" r="3.5" fill="#2563EB"/>
+<line x1="0" y1="-34" x2="0" y2="-22" stroke="#22D3EE" stroke-width="2"/>
+<line x1="0" y1="34" x2="0" y2="22" stroke="#22D3EE" stroke-width="2"/>
 </g>
-<g transform="translate(35,868) scale(0.92)" filter="url(#softShadow)" opacity="0.9">
-<line x1="0" y1="24" x2="225" y2="24" stroke="#B0BEC5" stroke-width="2"/>
-<circle cx="0" cy="24" r="13" fill="url(#accentGrad)"/>
-<circle cx="75" cy="24" r="13" fill="#DCEBF7"/>
-<circle cx="150" cy="24" r="13" fill="url(#accentGrad)"/>
-<circle cx="225" cy="24" r="13" fill="#1B2A4A"/>
-<path d="M59,24 L69,19 L69,29 Z" fill="#2563EB"/>
-<path d="M134,24 L144,19 L144,29 Z" fill="#2563EB"/>
+<g transform="translate(838,700)" opacity="0.92">
+<path d="M0,-30 L26,-18 V6 Q26,28 0,38 Q-26,28 -26,6 V-18 Z" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<path d="M-11,3 L-3,13 L14,-10" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g transform="translate(800,858) scale(0.9)" filter="url(#softShadow)" opacity="0.9">
-<rect x="0" y="0" width="165" height="115" rx="14" fill="#FFFFFF"/>
-<line x1="20" y1="92" x2="145" y2="92" stroke="#B0BEC5" stroke-width="1.5"/>
-<line x1="20" y1="20" x2="20" y2="92" stroke="#B0BEC5" stroke-width="1.5"/>
-<polyline points="26,78 55,58 82,68 110,34 140,44" fill="none" stroke="#2563EB" stroke-width="3"/>
-<circle cx="140" cy="44" r="4.5" fill="#22D3EE"/>
+<path d="M120,860 L904,860 L924,900 L100,900 Z" fill="url(#deskGrad)"/>
+<rect x="100" y="898" width="824" height="10" rx="4" fill="#CBD3DE"/>
+<path d="M392,560 Q512,520 632,560 L648,760 Q512,730 376,760 Z" fill="#E7ECF3" opacity="0.6"/>
+<path d="M512,300 C420,300 372,360 372,440 C372,520 388,610 402,690 C412,730 430,750 452,758 L448,660 C440,560 448,480 470,430 C490,390 534,390 554,430 C576,480 584,560 576,660 L572,758 C594,750 612,730 622,690 C636,610 652,520 652,440 C652,360 604,300 512,300 Z" fill="url(#hairGrad)"/>
+<path d="M400,440 C398,510 404,590 416,660 C420,680 428,696 440,706" stroke="url(#hairHighlight)" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+<path d="M624,440 C626,510 620,590 608,660 C604,680 596,696 584,706" stroke="url(#hairHighlight)" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+<rect x="488" y="452" width="48" height="56" rx="12" fill="url(#skinGradDark)"/>
+<path d="M382,600 C382,566 440,548 512,548 C584,548 642,566 642,600 L654,772 C654,790 596,806 512,806 C428,806 370,790 370,772 Z" fill="url(#blazerGrad)"/>
+<path d="M400,590 C440,570 512,560 512,560 C512,560 480,610 460,660 C445,698 436,740 434,772" stroke="#0F1830" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round"/>
+<path d="M624,590 C584,570 512,560 512,560 C512,560 544,610 564,660 C579,698 588,740 590,772" stroke="#0F1830" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round"/>
+<path d="M400,555 C450,540 512,534 512,534 C540,556 570,586 588,620 C560,586 512,566 460,586 C432,596 412,574 400,555 Z" fill="url(#blazerHighlight)"/>
+<path d="M478,556 L512,606 L546,556 L546,586 L512,632 L478,586 Z" fill="#F5F7FA"/>
+<path d="M478,556 L440,600 L470,660 L500,606 Z" fill="#1E2C4F"/>
+<path d="M546,556 L584,600 L554,660 L524,606 Z" fill="#1E2C4F"/>
+<path d="M400,610 C378,650 370,700 400,742 C420,758 448,768 466,772 L472,748 C452,740 434,724 428,700 C422,672 428,640 442,614 Z" fill="url(#blazerGrad)"/>
+<path d="M624,610 C646,650 654,700 624,742 C604,758 576,768 558,772 L552,748 C572,740 590,724 596,700 C602,672 596,640 582,614 Z" fill="url(#blazerGrad)"/>
+<path d="M406,616 C392,650 388,690 406,724" stroke="#3E5490" stroke-width="2" fill="none" opacity="0.35" stroke-linecap="round"/>
+<path d="M618,616 C632,650 636,690 618,724" stroke="#3E5490" stroke-width="2" fill="none" opacity="0.35" stroke-linecap="round"/>
+<g>
+<path d="M462,770 q0,-9 8,-10 q3,-8 8,-8 q3,-9 9,-8 q4,-8 9,-4 q6,2 4,10 q6,4 2,10 q2,7 -4,9 q-2,6 -8,5 h-20 q-7,0 -8,-4 z" fill="url(#skinGrad)"/>
+<path d="M468,764 q2,-6 6,-6 M478,760 q2,-7 6,-6 M488,760 q2,-7 6,-5 M496,764 q2,-6 5,-4" stroke="#B87A4C" stroke-width="1.2" opacity="0.6" fill="none" stroke-linecap="round"/>
+<path d="M530,770 q0,-9 8,-10 q3,-8 8,-8 q3,-9 9,-8 q4,-8 9,-4 q6,2 4,10 q6,4 2,10 q2,7 -4,9 q-2,6 -8,5 h-20 q-7,0 -8,-4 z" fill="url(#skinGrad)"/>
+<path d="M536,764 q2,-6 6,-6 M546,760 q2,-7 6,-6 M556,760 q2,-7 6,-5 M564,764 q2,-6 5,-4" stroke="#B87A4C" stroke-width="1.2" opacity="0.6" fill="none" stroke-linecap="round"/>
 </g>
-<g transform="translate(472,935) scale(0.85)" filter="url(#softShadow)" opacity="0.9">
-<path d="M40,0 L78,13 L78,42 C78,66 59,83 40,91 C21,83 2,66 2,42 L2,13 Z" fill="url(#blazerGrad)"/>
-<path d="M20,45 L33,58 L60,28" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g transform="translate(230,110) scale(1.15)">
-<rect x="120" y="300" width="260" height="300" rx="60" fill="url(#chairGrad)" filter="url(#softShadow)"/>
-<rect x="110" y="600" width="280" height="36" rx="16" fill="url(#chairGrad)"/>
-<ellipse cx="280" cy="597" rx="150" ry="14" fill="#000000" opacity="0.05"/>
-<path d="M158,562 C158,547 165,534 184,532 L298,532 C316,534 322,547 322,562 L322,648 C322,670 158,670 158,648 Z" fill="url(#pantsGrad)"/>
-<rect x="-40" y="640" width="580" height="26" rx="8" fill="url(#deskGrad)" filter="url(#softShadow)"/>
-<rect x="-10" y="666" width="18" height="130" fill="#D7DCE2"/>
-<rect x="512" y="666" width="18" height="130" fill="#D7DCE2"/>
-<path d="M155,345 C155,303 183,272 250,272 L312,272 C378,272 408,303 406,345 L404,555 C404,586 156,586 156,555 Z" fill="url(#blazerGrad)"/>
-<ellipse cx="280" cy="560" rx="120" ry="14" fill="#000000" opacity="0.06"/>
-<path d="M256,277 L306,277 L296,322 L266,322 Z" fill="url(#shirtGrad)"/>
-<path d="M256,277 L232,342 L271,331 Z" fill="#1B2A4A"/>
-<path d="M306,277 L331,342 L292,331 Z" fill="#1B2A4A"/>
-<path d="M156,325 C127,346 108,384 112,432 C114,462 120,520 124,558 L166,552 C161,510 155,458 154,420 C154,388 158,355 174,330 Z" fill="url(#blazerGrad)"/>
-<path d="M404,325 C433,346 452,384 448,432 C446,462 440,520 436,558 L394,552 C399,510 405,458 406,420 C406,388 402,355 386,330 Z" fill="url(#blazerGrad)"/>
-<path d="M170,600 C170,592 176,586 184,586 L376,586 C384,586 390,592 390,600 L392,616 C392,622 386,626 378,626 L182,626 C174,626 168,622 168,616 Z" fill="url(#keyboardGrad)"/>
-<line x1="185" y1="600" x2="375" y2="600" stroke="#C3C9D1" stroke-width="1"/>
-<line x1="185" y1="609" x2="375" y2="609" stroke="#C3C9D1" stroke-width="1"/>
-<line x1="185" y1="618" x2="375" y2="618" stroke="#C3C9D1" stroke-width="1"/>
-<path d="M180,588 L380,588 L372,462 C371,452 364,446 355,446 L205,446 C196,446 189,452 188,462 Z" fill="url(#screenGrad)" filter="url(#softShadow)"/>
-<rect x="198" y="470" width="164" height="112" rx="4" fill="#0B1626"/>
-<circle cx="207" cy="478" r="2.5" fill="#3A4A66"/>
-<circle cx="215" cy="478" r="2.5" fill="#3A4A66"/>
-<circle cx="223" cy="478" r="2.5" fill="#3A4A66"/>
-<text x="280" y="481" font-family="Segoe UI, Arial, sans-serif" font-size="7" fill="#7F8FA6" text-anchor="middle">Query Editor</text>
-<text x="207" y="497" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#4A5A74">1</text>
-<text x="217" y="497" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#22D3EE">SELECT</text>
-<text x="245" y="497" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#DCEBF7">region, revenue</text>
-<text x="207" y="507" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#4A5A74">2</text>
-<text x="217" y="507" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#22D3EE">FROM</text>
-<text x="238" y="507" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#DCEBF7">sales_fact</text>
-<text x="207" y="517" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#4A5A74">3</text>
-<text x="217" y="517" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#22D3EE">GROUP BY</text>
-<text x="255" y="517" font-family="Consolas, Menlo, monospace" font-size="7.5" fill="#DCEBF7">region;</text>
-<rect x="217" y="521" width="5" height="8" fill="#22D3EE" opacity="0.8"/>
-<rect x="198" y="533" width="76" height="49" rx="5" fill="#14213D"/>
-<circle cx="206" cy="540" r="2" fill="#22D3EE"/>
-<text x="212" y="543" font-family="Segoe UI, Arial, sans-serif" font-size="6" fill="#8FA3BE">Revenue</text>
-<text x="206" y="558" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">$482K</text>
-<polyline points="206,573 218,566 230,570 242,558 254,562 264,552" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
-<rect x="280" y="533" width="80" height="49" rx="5" fill="#14213D"/>
-<circle cx="288" cy="540" r="2" fill="#2563EB"/>
-<text x="294" y="543" font-family="Segoe UI, Arial, sans-serif" font-size="6" fill="#8FA3BE">By Region</text>
-<rect x="288" y="562" width="9" height="15" fill="#2563EB"/>
-<rect x="301" y="554" width="9" height="23" fill="#22D3EE"/>
-<rect x="314" y="560" width="9" height="17" fill="#2563EB"/>
-<rect x="327" y="548" width="9" height="29" fill="#22D3EE"/>
-<rect x="340" y="558" width="9" height="19" fill="#2563EB"/>
-<path d="M114,562 C118,556 126,553 133,556 L160,566 C165,568 166,574 162,577 L128,588 C122,590 116,586 116,580 Z" fill="url(#skinGrad)"/>
-<line x1="128" y1="565" x2="132" y2="580" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<line x1="138" y1="562" x2="142" y2="578" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<line x1="148" y1="562" x2="151" y2="577" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<path d="M446,562 C442,556 434,553 427,556 L400,566 C395,568 394,574 398,577 L432,588 C438,590 444,586 444,580 Z" fill="url(#skinGrad)"/>
-<line x1="432" y1="565" x2="428" y2="580" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<line x1="422" y1="562" x2="418" y2="578" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<line x1="412" y1="562" x2="409" y2="577" stroke="#D9A876" stroke-width="1" opacity="0.5"/>
-<rect x="247" y="228" width="66" height="58" rx="20" fill="url(#skinGrad)"/>
-<ellipse cx="280" cy="278" rx="34" ry="10" fill="#000000" opacity="0.04"/>
-<path d="M188,148 C184,78 224,22 280,22 C336,22 376,78 372,148 C374,224 380,308 362,372 C355,340 350,300 348,260 C346,205 336,140 313,112 C300,96 280,90 280,90 C260,90 240,96 247,112 C224,140 214,205 212,260 C210,300 205,340 198,372 C180,308 186,224 188,148 Z" fill="url(#hairGrad)"/>
-<path d="M197,145 C194,90 228,42 280,42 C332,42 366,90 363,145 C364,168 366,190 365,210 C358,182 352,158 344,140 C334,116 312,102 280,100 C248,102 226,116 216,140 C208,158 202,182 195,210 C194,190 196,168 197,145 Z" fill="url(#hairGradLight)" opacity="0.55"/>
-<path d="M198,142 C196,86 232,38 280,38 C328,38 364,86 362,142" fill="none" stroke="#4A3524" stroke-width="1.2" opacity="0.35"/>
-<circle cx="280" cy="98" r="20" fill="url(#hairGrad)"/>
-<path d="M226,132 Q246,122 264,130" stroke="#3B2A1E" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-<path d="M296,130 Q314,122 334,132" stroke="#3B2A1E" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-<ellipse cx="247" cy="152" rx="13" ry="8.5" fill="#FFFFFF"/>
-<circle cx="248" cy="152" r="5.8" fill="#4A3324"/>
-<circle cx="249" cy="150.5" r="1.6" fill="#FFFFFF"/>
-<circle cx="248" cy="152" r="2.2" fill="#000000"/>
-<path d="M234,148 Q247,140 260,148" stroke="#2A1D14" stroke-width="2" fill="none"/>
-<ellipse cx="313" cy="152" rx="13" ry="8.5" fill="#FFFFFF"/>
-<circle cx="312" cy="152" r="5.8" fill="#4A3324"/>
-<circle cx="313" cy="150.5" r="1.6" fill="#FFFFFF"/>
-<circle cx="312" cy="152" r="2.2" fill="#000000"/>
-<path d="M300,148 Q313,140 326,148" stroke="#2A1D14" stroke-width="2" fill="none"/>
-<path d="M279,152 C277,164 273,175 280,180 C287,175 283,164 281,152" fill="none" stroke="#D9A876" stroke-width="2.2" stroke-linecap="round"/>
-<ellipse cx="232" cy="182" rx="11" ry="6.5" fill="#F0A98A" opacity="0.25"/>
-<ellipse cx="328" cy="182" rx="11" ry="6.5" fill="#F0A98A" opacity="0.25"/>
-<path d="M258,203 Q280,213 302,203 C296,210 288,214 280,214 C272,214 264,210 258,203 Z" fill="#C97C6B"/>
-<path d="M262,205 Q280,210 298,205" fill="none" stroke="#B5695A" stroke-width="1" opacity="0.6"/>
+<circle cx="512" cy="422" r="82" fill="url(#skinGrad)"/>
+<path d="M446,470 Q460,494 512,500 Q564,494 578,470 Q566,450 512,448 Q458,450 446,470 Z" fill="url(#skinGradDark)" opacity="0.35"/>
+<circle cx="512" cy="422" r="82" fill="url(#faceHighlight)"/>
+<ellipse cx="430" cy="428" rx="10" ry="16" fill="url(#skinGrad)"/>
+<ellipse cx="594" cy="428" rx="10" ry="16" fill="url(#skinGrad)"/>
+<path d="M420,360 C424,320 460,296 512,296 C564,296 600,320 604,360 C596,338 578,320 556,312 C572,332 574,354 570,374 C558,350 536,338 512,338 C488,338 466,350 454,374 C450,354 452,332 468,312 C446,320 428,338 420,360 Z" fill="url(#hairGrad)"/>
+<path d="M448,356 C456,328 480,308 512,308 C540,308 554,324 560,340 C544,326 526,320 512,320 C492,320 470,330 456,356 Z" fill="url(#hairHighlight)" opacity="0.6"/>
+<path d="M436,398 C424,440 424,486 436,522 L452,516 C444,480 444,438 452,400 Z" fill="url(#hairGrad)"/>
+<path d="M588,398 C600,440 600,486 588,522 L572,516 C580,480 580,438 572,400 Z" fill="url(#hairGrad)"/>
+<path d="M441,404 C433,438 433,476 441,504" stroke="url(#hairHighlight)" stroke-width="2.4" fill="none" opacity="0.45" stroke-linecap="round"/>
+<path d="M583,404 C591,438 591,476 583,504" stroke="url(#hairHighlight)" stroke-width="2.4" fill="none" opacity="0.45" stroke-linecap="round"/>
+<path d="M470,304 C460,340 458,380 466,420" stroke="url(#hairHighlight)" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+<path d="M552,306 C562,342 564,382 556,420" stroke="url(#hairHighlight)" stroke-width="2.4" fill="none" opacity="0.4" stroke-linecap="round"/>
+<path d="M468,402 Q486,391 505,400" stroke="#2A1B10" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+<path d="M519,400 Q538,391 556,402" stroke="#2A1B10" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+<path d="M471,420 Q486,410 502,419 Q487,430 471,420 Z" fill="#FFFFFF" stroke="#2A1B10" stroke-width="1.6"/>
+<circle cx="487" cy="420" r="6.2" fill="#3A2416"/>
+<circle cx="487" cy="420" r="2.6" fill="#170F0A"/>
+<circle cx="489.5" cy="417" r="1.8" fill="#FFFFFF"/>
+<path d="M522,419 Q538,410 553,420 Q538,430 522,419 Z" fill="#FFFFFF" stroke="#2A1B10" stroke-width="1.6"/>
+<circle cx="537" cy="419" r="6.2" fill="#3A2416"/>
+<circle cx="537" cy="419" r="2.6" fill="#170F0A"/>
+<circle cx="539.5" cy="416" r="1.8" fill="#FFFFFF"/>
+<path d="M506,428 Q501,444 510,452 Q516,451 519,447 Q521,449 524,447" stroke="#B87A4C" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+<path d="M484,460 Q512,480 540,460 Q536,472 512,476 Q488,472 484,460 Z" fill="#B4593A" opacity="0.75"/>
+<path d="M488,460 Q512,472 536,460" stroke="#8A4A2C" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M494,458 Q512,466 530,458" stroke="#E48A6A" stroke-width="1.2" fill="none" opacity="0.6"/>
+<ellipse cx="466" cy="444" rx="11" ry="7" fill="#E8895C" opacity="0.28"/>
+<ellipse cx="558" cy="444" rx="11" ry="7" fill="#E8895C" opacity="0.28"/>
+<g transform="translate(512,0) scale(1.35,1) translate(-512,0)">
+<ellipse cx="512" cy="758" rx="220" ry="14" fill="#0B1526" opacity="0.28" filter="url(#softShadowStrong)"/>
+<path d="M298,760 L726,760 L706,802 L318,802 Z" fill="url(#deskGrad)" stroke="#C7D0DC" stroke-width="1.5"/>
+<rect x="352" y="770" width="320" height="14" rx="5" fill="#CBD3DE"/>
+<circle cx="512" cy="793" r="4" fill="#B0BEC5"/>
+<path d="M316,760 L708,760 L720,556 L304,556 Z" fill="url(#laptopBezel)"/>
+<path d="M316,760 L708,760 L720,556 L304,556 Z" fill="url(#metallicSheen)"/>
+<path d="M330,748 L694,748 L704,570 L320,570 Z" fill="url(#screenGrad)"/>
+<rect x="330" y="570" width="374" height="26" fill="#EEF1F6"/>
+<circle cx="346" cy="583" r="4" fill="#EF5A5A"/>
+<circle cx="360" cy="583" r="4" fill="#F2B84B"/>
+<circle cx="374" cy="583" r="4" fill="#3FC48A"/>
+<text x="694" y="587" font-family="Arial, sans-serif" font-size="10" fill="#8A94A3" text-anchor="end">CortexOS</text>
+<path d="M660,606 a10,10 0 0 1 2,-19 a13,13 0 0 1 24,-3 a9,9 0 0 1 9,17 z" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.6"/>
+<rect x="336" y="600" width="182" height="68" rx="6" fill="#152040"/>
+<text x="346" y="613" font-family="Consolas, monospace" font-size="9" fill="#22D3EE">SELECT * FROM orders o</text>
+<text x="346" y="626" font-family="Consolas, monospace" font-size="9" fill="#F5F7FA">JOIN customers c</text>
+<text x="346" y="639" font-family="Consolas, monospace" font-size="9" fill="#F5F7FA">WHERE status='active'</text>
+<rect x="346" y="650" width="160" height="8" rx="4" fill="url(#cyanGrad)" opacity="0.9"/>
+<rect x="526" y="600" width="82" height="32" rx="5" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="526" y="600" width="82" height="4" rx="2" fill="url(#cyanGrad)"/>
+<text x="532" y="613" font-family="Arial, sans-serif" font-size="7" fill="#31384A">Pipeline Health</text>
+<rect x="532" y="618" width="70" height="5" rx="2.5" fill="#E4E9F0"/>
+<rect x="532" y="618" width="60" height="5" rx="2.5" fill="url(#cyanGrad)"/>
+<text x="602" y="629" font-family="Arial, sans-serif" font-size="6" fill="#2563EB" text-anchor="end">92%</text>
+<rect x="612" y="600" width="82" height="32" rx="5" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="612" y="600" width="82" height="4" rx="2" fill="url(#cyanGrad)"/>
+<text x="618" y="613" font-family="Arial, sans-serif" font-size="7" fill="#31384A">Data Quality</text>
+<text x="653" y="629" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B2A4A" text-anchor="middle">96</text>
+<rect x="526" y="636" width="82" height="32" rx="5" fill="#FFFFFF" stroke="#C3CCD9"/>
+<text x="532" y="648" font-family="Arial, sans-serif" font-size="7" fill="#31384A">AI Copilot</text>
+<circle cx="536" cy="659" r="5" fill="none" stroke="#22D3EE" stroke-width="2"/>
+<circle cx="536" cy="659" r="1.8" fill="#2563EB"/>
+<text x="545" y="662" font-family="Arial, sans-serif" font-size="6" fill="#4B5768">Insight ready</text>
+<rect x="612" y="636" width="82" height="32" rx="5" fill="#FFFFFF" stroke="#C3CCD9"/>
+<text x="618" y="648" font-family="Arial, sans-serif" font-size="7" fill="#31384A">Alerts</text>
+<circle cx="618" cy="659" r="3" fill="#EF5A5A"/>
+<text x="626" y="662" font-family="Arial, sans-serif" font-size="7" fill="#4B5768">2 open</text>
+<rect x="336" y="672" width="85" height="34" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="336" y="672" width="85" height="3" rx="1.5" fill="url(#cyanGrad)"/>
+<text x="342" y="686" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A">Active Pipelines</text>
+<text x="378" y="702" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B2A4A" text-anchor="middle">24</text>
+<rect x="427" y="672" width="85" height="34" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="427" y="672" width="85" height="3" rx="1.5" fill="url(#cyanGrad)"/>
+<text x="433" y="686" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A">Data Quality</text>
+<text x="469" y="702" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B2A4A" text-anchor="middle">96%</text>
+<rect x="518" y="672" width="85" height="34" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="518" y="672" width="85" height="3" rx="1.5" fill="url(#cyanGrad)"/>
+<text x="524" y="686" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A">Open Alerts</text>
+<text x="560" y="702" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B2A4A" text-anchor="middle">2</text>
+<rect x="609" y="672" width="85" height="34" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<rect x="609" y="672" width="85" height="3" rx="1.5" fill="url(#cyanGrad)"/>
+<text x="615" y="686" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A">AI Insights</text>
+<text x="651" y="702" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B2A4A" text-anchor="middle">5</text>
+<rect x="336" y="712" width="172" height="32" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<text x="342" y="723" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A" font-weight="600">Pipeline Performance</text>
+<line x1="342" y1="740" x2="500" y2="740" stroke="#E4E9F0" stroke-width="1"/>
+<polyline points="342,736 362,731 382,734 402,723 422,727 442,717 462,720 480,714 498,718" fill="none" stroke="url(#cyanGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="516" y="712" width="178" height="32" rx="6" fill="#FFFFFF" stroke="#C3CCD9"/>
+<text x="522" y="723" font-family="Arial, sans-serif" font-size="6.5" fill="#31384A" font-weight="600">Data Quality by Source</text>
+<line x1="524" y1="740" x2="686" y2="740" stroke="#E4E9F0" stroke-width="1"/>
+<rect x="526" y="726" width="11" height="14" rx="1.5" fill="url(#cyanGrad)"/>
+<rect x="544" y="720" width="11" height="20" rx="1.5" fill="url(#navyGradSoft)"/>
+<rect x="562" y="730" width="11" height="10" rx="1.5" fill="url(#cyanGrad)"/>
+<rect x="580" y="716" width="11" height="24" rx="1.5" fill="url(#navyGradSoft)"/>
+<rect x="598" y="724" width="11" height="16" rx="1.5" fill="url(#cyanGrad)"/>
+<rect x="616" y="712" width="11" height="28" rx="1.5" fill="url(#navyGradSoft)"/>
 </g>
 </svg>
