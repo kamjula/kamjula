@@ -47,8 +47,8 @@ I'm based in the U.S. and open to Data Analyst, Analytics Engineer, Data Quality
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamjula&show_icons=true&theme=default&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamjula&layout=compact&theme=default&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=kamjula&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamjula&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 ---
 
