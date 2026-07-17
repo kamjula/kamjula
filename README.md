@@ -26,6 +26,8 @@ I'm based in the U.S. and open to Data Analyst, Analytics Engineer, Data Quality
 
 | Project | What it does | Stack |
 |---|---|---|
+| [🚀 CortexOS](https://github.com/kamjula) | AI-powered enterprise data platform for pipeline monitoring, data quality, anomaly detection, alerts, and AI-assisted insights | React · Python · SQL · AI/ML |
+| [🛡️ Healthcare Fraud Detection](https://github.com/kamjula/healthcare-fraud-detection) | Detects fraudulent medical claims using rule-based anomaly detection and SQL | Python · SQL · Pandas |
 | [🛡️ Healthcare Fraud Detection](https://github.com/kamjula/healthcare-fraud-detection) | Detects fraudulent medical claims using rule-based anomaly detection and SQL | Python · SQL · Pandas |
 | [🔍 Enterprise Data Detective](https://github.com/kamjula/enterprise-data-detective) | Profiles enterprise data, flags suspicious transactions, and answers questions in plain English | Python · DuckDB · Streamlit |
 | [🛒 E-Commerce Sales Analysis](https://github.com/kamjula/Ecommerce-sales-analysis) | End-to-end analysis — EDA, regional trends, category performance, and business insights | Python · SQL · Tableau |
