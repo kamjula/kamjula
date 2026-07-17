@@ -15,8 +15,11 @@
 </div>
 
 <br>
-# Hi, I'm Sravani 👋
-#### **Data Analyst | AI Engineer | Enterprise Data Platforms | Building CortexOS 🚀**
+<h1 align="center">Hi, I'm Sravani 👋</h1>
+
+<h3 align="center">
+Data Analyst | AI Engineer | Enterprise Data Platforms | Building CortexOS 🚀
+</h3>
 
 I build AI-powered data platforms, automated data quality solutions, and analytics applications using Python, SQL, React, Power BI, and Snowflake.
 
