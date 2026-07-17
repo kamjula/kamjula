@@ -16,7 +16,7 @@
 
 <br>
 # Hi, I'm Sravani 👋
-## Data Analyst | AI Engineer | Enterprise Data Platforms | Building CortexOS 🚀
+#### **Data Analyst | AI Engineer | Enterprise Data Platforms | Building CortexOS 🚀**
 
 I build AI-powered data platforms, automated data quality solutions, and analytics applications using Python, SQL, React, Power BI, and Snowflake.
 
@@ -38,13 +38,18 @@ I'm based in the U.S. and open to Data Analyst, Analytics Engineer, Data Quality
 
 | Project | What it does | Stack |
 |---|---|---|
-| [🚀 CortexOS](https://github.com/kamjula) | AI-powered enterprise data platform for pipeline monitoring, data quality, anomaly detection, alerts, and AI-assisted insights | React · Python · SQL · AI/ML |
+| [🚀 CortexOS](https://github.com/kamjula/CortexOS) | AI-powered enterprise data platform for pipeline monitoring, data quality, anomaly detection, alerts, and AI-assisted insights | React · Python · SQL · AI/ML |
 | [🛡️ Healthcare Fraud Detection](https://github.com/kamjula/healthcare-fraud-detection) | Detects fraudulent medical claims using rule-based anomaly detection and SQL | Python · SQL · Pandas |
 | [🔍 Enterprise Data Detective](https://github.com/kamjula/enterprise-data-detective) | Profiles enterprise data, flags suspicious transactions, and answers questions in plain English | Python · DuckDB · Streamlit |
 | [🛒 E-Commerce Sales Analysis](https://github.com/kamjula/Ecommerce-sales-analysis) | End-to-end analysis — EDA, regional trends, category performance, and business insights | Python · SQL · Tableau |
 | [🔧 Self-Healing Data Pipeline](https://github.com/kamjula/Self-Healing-Data-Pipeline) | A pipeline that automatically finds and fixes data issues — missing values, drift, duplicates | Python · SQL |
 | [☁️ Amazon Data Analyst Prep](https://github.com/kamjula/Amazon-data-analyst-prep) | 30 days of SQL, Python, Tableau and case study practice for a Data Analyst interview | SQL · Python · Tableau |
+## 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kamjula&show_icons=true&theme=default&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamjula&layout=compact&theme=default&hide_border=true" height="160"/>
+</p>
 ---
 
 ## 📬 Let's Connect
