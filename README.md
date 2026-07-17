@@ -5,8 +5,9 @@
 <br>
 
 # Hi, I'm Sravani 👋
+## Data Analyst | AI Engineer | Enterprise Data Platforms | Building CortexOS 🚀
 
-I'm a Data Analyst with a background in SQL, Python, Power BI, Snowflake, and Tableau. I enjoy working with messy data and turning it into something useful — whether that's a clean dashboard, a fraud detection system, or an automated pipeline.
+I build AI-powered data platforms, automated data quality solutions, and analytics applications using Python, SQL, React, Power BI, and Snowflake.
 
 I'm based in the U.S. and open to Data Analyst, Analytics Engineer, Data Quality, and Data Scientist opportunities.
 
