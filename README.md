@@ -1,4 +1,4 @@
-div align="center">
+<div align="center">
   <img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani Kamjula Illustration" />
 
   # Sravani Kamjula
