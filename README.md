@@ -1,4 +1,4 @@
-<div align="center">
+div align="center">
   <img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani Kamjula Illustration" />
 
   # Sravani Kamjula
@@ -23,7 +23,6 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sravanikamjula)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KamjulaSravani)
 [![Upwork](https://img.shields.io/badge/Upwork-Freelance_Profile-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01eeddf9788df2cd20)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sravanikamc)
 [![CortexOS Live Demo](https://img.shields.io/badge/CortexOS-Live_Demo-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://cortexos-frontend.onrender.com)
 [![CortexOS Source](https://img.shields.io/badge/CortexOS-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/cortex-enterprise)
 
@@ -36,6 +35,7 @@
 <td valign="top" width="33%">
 
 ### 🔗 Connect
+
 - [LinkedIn](https://www.linkedin.com/in/sravani-kamjula-763285176)
 - [Portfolio](https://sravaniportfoli.netlify.app/)
 - [Email](mailto:sravanikamjula@gmail.com)
@@ -47,6 +47,7 @@
 <td valign="top" width="33%">
 
 ### 📜 Anthropic Certifications
+
 - [Building with the Claude API](https://verify.skilljar.com/c/mhg9boh2eiih)
 - [Claude Code 101](https://verify.skilljar.com/c/s9bzgmf36ddp)
 - [AI Fluency: Framework & Foundations](https://verify.skilljar.com/c/dh8oxakx2o53)
@@ -55,6 +56,7 @@
 <td valign="top" width="33%">
 
 ### 🚀 Featured Project
+
 - [CortexOS Live Demo](https://cortexos-frontend.onrender.com)
 - [CortexOS Source Code](https://github.com/kamjula/cortex-enterprise)
 - [Portfolio](https://sravaniportfoli.netlify.app/)
@@ -71,9 +73,11 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 
 <div align="center">
   <a href="https://cortexos-frontend.onrender.com">
-    <img src="./assets/CortexOS_Cover_.png"
-         alt="CortexOS Enterprise Data Operations Platform"
-         width="100%" />
+    <img
+      src="./assets/CortexOS_Cover_.png"
+      alt="CortexOS Enterprise Data Operations Platform"
+      width="100%"
+    />
   </a>
 </div>
 
@@ -85,7 +89,7 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 
 </div>
 
-### ✅ Functional modules — connected to PostgreSQL and Express REST API
+### ✅ Functional Modules — Connected to PostgreSQL and Express REST API
 
 - Dataset management with PostgreSQL-backed CRUD
 - Pipeline monitoring
@@ -93,16 +97,18 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 - Execution logs
 - Data-quality metrics and validation views
 - Alert creation, update, resolution, and deletion
+- Express REST API integration
+- Frontend and backend deployment on Render
 
-### 🧪 UI prototypes — not connected to a live backend
+### 🧪 UI Prototypes — Not Connected to a Live Backend
 
 - AI Copilot
 - User Management
 - Settings
 
-Authentication and role-based access control are not yet implemented.
+> Authentication and role-based access control are not yet implemented.
 
-### CortexOS tech stack
+### CortexOS Tech Stack
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -116,6 +122,66 @@ Authentication and role-based access control are not yet implemented.
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+---
+
+## 🤖 Future Project — RoboOps
+
+### Robotics Fleet Monitoring & Predictive Maintenance Platform
+
+<div align="center">
+  <img
+    src="./assets/RoboOps_Concept.png"
+    alt="RoboOps Robotics Fleet Monitoring Platform Concept Preview"
+    width="100%"
+  />
+</div>
+
+> **Status: Planning & Architecture Phase**  
+> The image above is a concept preview representing the intended product direction. The project has not yet been fully implemented.
+
+RoboOps is a planned enterprise robotics operations platform focused on robot fleet monitoring, telemetry analysis, anomaly detection, predictive maintenance, and operational intelligence.
+
+### Planned Capabilities
+
+- Robot fleet overview and operational status
+- Real-time telemetry monitoring
+- Battery, temperature, vibration, and motor-health tracking
+- Fault and anomaly detection
+- Predictive maintenance workflows
+- Task and route tracking
+- Maintenance history
+- Utilization analytics
+- Operational alerts and notifications
+- AI-assisted incident-summary prototype
+
+### Planned Technology Stack
+
+**Frontend:** React, JavaScript, Recharts  
+**Backend:** Python, FastAPI  
+**Database:** PostgreSQL  
+**Streaming:** Apache Kafka  
+**Cloud:** AWS S3, EC2, RDS  
+**Analytics:** Python, Pandas, Scikit-learn  
+**Development:** Git, GitHub, VS Code
+
+### Planned Architecture
+
+```text
+Robots / Simulated Sensors
+          ↓
+     Kafka Streaming
+          ↓
+     Python FastAPI
+          ↓
+       PostgreSQL
+          ↓
+     React Dashboard
+          ↓
+Alerts & Operational Insights
+```
+
+> Features and technologies listed above represent the intended roadmap and have not yet been fully implemented.
 
 ---
 
@@ -133,7 +199,7 @@ Authentication and role-based access control are not yet implemented.
 
 ## 🛠️ Tech Stack & Expertise
 
-**Analytics**
+### Analytics
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -142,7 +208,7 @@ Authentication and role-based access control are not yet implemented.
 ![DAX](https://img.shields.io/badge/DAX-2C2C2C?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-**Data Science & Machine Learning**
+### Data Science & Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -157,7 +223,7 @@ Authentication and role-based access control are not yet implemented.
 ![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-6c757d?style=flat-square)
 ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-6c757d?style=flat-square)
 
-**Data Engineering**
+### Data Engineering
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
@@ -169,7 +235,7 @@ Authentication and role-based access control are not yet implemented.
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge)
 
-**Application Development**
+### Application Development
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -180,7 +246,7 @@ Authentication and role-based access control are not yet implemented.
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-**Data Quality**
+### Data Quality
 
 ![Validation](https://img.shields.io/badge/Validation-6c757d?style=flat-square)
 ![Reconciliation](https://img.shields.io/badge/Reconciliation-6c757d?style=flat-square)
@@ -190,7 +256,7 @@ Authentication and role-based access control are not yet implemented.
 ![Anomaly Review](https://img.shields.io/badge/Anomaly_Review-6c757d?style=flat-square)
 ![Quality Monitoring](https://img.shields.io/badge/Quality_Monitoring-6c757d?style=flat-square)
 
-**EDI**
+### EDI
 
 ![EDI 850](https://img.shields.io/badge/EDI_850-6c757d?style=flat-square)
 ![EDI 855](https://img.shields.io/badge/EDI_855-6c757d?style=flat-square)
@@ -221,7 +287,7 @@ Authentication and role-based access control are not yet implemented.
 | 🔍 Enterprise Data Detective | Profiles enterprise data and flags suspicious transactions with plain-language exploration | Python, SQL, DuckDB, Streamlit | [Repo](https://github.com/kamjula/enterprise-data-detective) |
 | 🔧 Self-Healing Data Pipeline | Detects and resolves missing values, schema drift, and duplicates without manual work | Python, SQL | [Repo](https://github.com/kamjula/Self-Healing-Data-Pipeline) |
 | 🛒 E-Commerce Sales Analysis | End-to-end EDA covering regional trends, category performance, and business insights | Python, SQL, Tableau | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
-| ☁️ Amazon Data Analyst Prep | SQL, Python, and Tableau practice plan for data analyst interview prep | SQL, Python, Tableau | [Repo](https://github.com/kamjula/Amazon-data-analyst-prep) |
+| ☁️ Amazon Data Analyst Prep | SQL, Python, and Tableau practice plan for data analyst interview preparation | SQL, Python, Tableau | [Repo](https://github.com/kamjula/Amazon-data-analyst-prep) |
 
 ---
 
