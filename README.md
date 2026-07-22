@@ -293,11 +293,7 @@ Alerts & Operational Insights
 
 ## 📈 GitHub Activity
 
-- Building practical data, analytics, and full-stack projects
-- Maintaining CortexOS and future RoboOps development
-- Exploring SQL, Python, PostgreSQL, APIs, and cloud workflows
-
-[View my GitHub profile](https://github.com/kamjula)
+[![Sravani's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamjula&theme=github-compact&hide_border=true)](https://github.com/kamjula)
 
 ---
 
