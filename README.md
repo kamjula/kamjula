@@ -293,11 +293,11 @@ Alerts & Operational Insights
 
 ## 📈 GitHub Activity
 
-<div align="center">
+- Building practical data, analytics, and full-stack projects
+- Maintaining CortexOS and future RoboOps development
+- Exploring SQL, Python, PostgreSQL, APIs, and cloud workflows
 
-![Sravani GitHub activity summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamjula&theme=github)
-
-</div>
+[View my GitHub profile](https://github.com/kamjula)
 
 ---
 
