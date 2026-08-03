@@ -1,18 +1,19 @@
 <div align="center">
-  <img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani Kamjula Illustration" />
+<img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani Kamjula Illustration" />
 
-  # Sravani Kamjula
+# Sravani Kamjula
 
-  **Data Scientist | Data Engineer | AI/ML Engineer | Full-Stack Data Engineer**
+**Data Analyst | Data Scientist | Data Engineer | Analytics Engineer | AI/ML Engineer | Full-Stack Data Engineer**
 
-  Building data platforms, analytics systems, machine-learning workflows, and full-stack data applications.
+Building data platforms, analytics systems, machine-learning workflows, and full-stack data applications.
 
-  🟢 Open to Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities
+🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities
 
-  📍 United States
+📍 United States
+
+![Profile Views](https://komarev.com/ghpvc/?username=kamjula&color=6a5acd&style=flat-square&label=Profile%20Views)
+
 </div>
-
-<br/>
 
 <div align="center">
 
@@ -23,47 +24,8 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sravanikamjula)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KamjulaSravani)
 [![Upwork](https://img.shields.io/badge/Upwork-Freelance_Profile-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01eeddf9788df2cd20)
-[![CortexOS Live Demo](https://img.shields.io/badge/CortexOS-Live_Demo-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://cortexos-frontend.onrender.com)
-[![CortexOS Source](https://img.shields.io/badge/CortexOS-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/cortex-enterprise)
 
 </div>
-
----
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-### 🔗 Connect
-
-- [LinkedIn](https://www.linkedin.com/in/sravani-kamjula-763285176)
-- [Portfolio](https://sravaniportfoli.netlify.app/)
-- [Email](mailto:sravanikamjula@gmail.com)
-- [Kaggle](https://www.kaggle.com/sravanikamjula)
-- [X](https://x.com/KamjulaSravani)
-- [Upwork](https://www.upwork.com/freelancers/~01eeddf9788df2cd20)
-
-</td>
-<td valign="top" width="33%">
-
-### 📜 Anthropic Certifications
-
-- [Building with the Claude API](https://verify.skilljar.com/c/mhg9boh2eiih)
-- [Claude Code 101](https://verify.skilljar.com/c/s9bzgmf36ddp)
-- [AI Fluency: Framework & Foundations](https://verify.skilljar.com/c/dh8oxakx2o53)
-
-</td>
-<td valign="top" width="33%">
-
-### 🚀 Featured Project
-
-- [CortexOS Live Demo](https://cortexos-frontend.onrender.com)
-- [CortexOS Source Code](https://github.com/kamjula/cortex-enterprise)
-- [Portfolio](https://sravaniportfoli.netlify.app/)
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -72,13 +34,9 @@
 A deployed full-stack platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted interface prototypes.
 
 <div align="center">
-  <a href="https://cortexos-frontend.onrender.com">
-    <img
-      src="./assets/CortexOS_Cover_.png"
-      alt="CortexOS Enterprise Data Operations Platform"
-      width="100%"
-    />
-  </a>
+<a href="https://cortexos-frontend.onrender.com">
+<img src="./assets/CortexOS_Cover_.png" alt="CortexOS Enterprise Data Operations Platform" width="100%" />
+</a>
 </div>
 
 <div align="center">
@@ -106,7 +64,7 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 - User Management
 - Settings
 
-> Authentication and role-based access control are not yet implemented.
+*Note: Authentication and role-based access control are not yet implemented.*
 
 ### CortexOS Tech Stack
 
@@ -130,15 +88,10 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 ### Robotics Fleet Monitoring & Predictive Maintenance Platform
 
 <div align="center">
-  <img
-    src="./assets/RoboOps_Concept.png"
-    alt="RoboOps Robotics Fleet Monitoring Platform Concept Preview"
-    width="100%"
-  />
+<img src="./assets/RoboOps_Concept.png" alt="RoboOps Robotics Fleet Monitoring Platform Concept Preview" width="100%" />
 </div>
 
-> **Status: Planning & Architecture Phase**  
-> The image above is a concept preview representing the intended product direction. The project has not yet been fully implemented.
+**Status: Planning & Architecture Phase.** *The image above is a concept preview representing the intended product direction. The project has not yet been fully implemented.*
 
 RoboOps is a planned enterprise robotics operations platform focused on robot fleet monitoring, telemetry analysis, anomaly detection, predictive maintenance, and operational intelligence.
 
@@ -157,31 +110,31 @@ RoboOps is a planned enterprise robotics operations platform focused on robot fl
 
 ### Planned Technology Stack
 
-**Frontend:** React, JavaScript, Recharts  
-**Backend:** Python, FastAPI  
-**Database:** PostgreSQL  
-**Streaming:** Apache Kafka  
-**Cloud:** AWS S3, EC2, RDS  
-**Analytics:** Python, Pandas, Scikit-learn  
-**Development:** Git, GitHub, VS Code
+- **Frontend:** React, JavaScript, Recharts
+- **Backend:** Python, FastAPI
+- **Database:** PostgreSQL
+- **Streaming:** Apache Kafka
+- **Cloud:** AWS S3, EC2, RDS
+- **Analytics:** Python, Pandas, Scikit-learn
+- **Development:** Git, GitHub, VS Code
 
 ### Planned Architecture
 
 ```text
 Robots / Simulated Sensors
-          ↓
-     Kafka Streaming
-          ↓
-     Python FastAPI
-          ↓
-       PostgreSQL
-          ↓
-     React Dashboard
-          ↓
+↓
+Kafka Streaming
+↓
+Python FastAPI
+↓
+PostgreSQL
+↓
+React Dashboard
+↓
 Alerts & Operational Insights
 ```
 
-> Features and technologies listed above represent the intended roadmap and have not yet been fully implemented.
+*Features and technologies listed above represent the intended roadmap and have not yet been fully implemented.*
 
 ---
 
@@ -271,11 +224,11 @@ Alerts & Operational Insights
 
 ## 📜 Certifications — Anthropic
 
-| Certification | Issuer | Completion Date | Credential |
+| Certification | Issuer | Completed | Credential |
 |---|---|---|---|
-| Building with the Claude API | Anthropic | June 15, 2026 | [View Credential](https://verify.skilljar.com/c/mhg9boh2eiih) |
-| Claude Code 101 | Anthropic | June 13, 2026 | [View Credential](https://verify.skilljar.com/c/s9bzgmf36ddp) |
-| AI Fluency: Framework & Foundations | Anthropic | June 12, 2026 | [View Credential](https://verify.skilljar.com/c/dh8oxakx2o53) |
+| Building with the Claude API | Anthropic | June 15, 2026 | [Verify](https://verify.skilljar.com/c/mhg9boh2eiih) |
+| Claude Code 101 | Anthropic | June 13, 2026 | [Verify](https://verify.skilljar.com/c/s9bzgmf36ddp) |
+| AI Fluency: Framework & Foundations | Anthropic | June 12, 2026 | [Verify](https://verify.skilljar.com/c/dh8oxakx2o53) |
 
 ---
 
@@ -293,7 +246,13 @@ Alerts & Operational Insights
 
 ## 📈 GitHub Activity
 
+<div align="center">
+
 [![Sravani's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamjula&theme=github-compact&hide_border=true)](https://github.com/kamjula)
+
+</div>
+
+*Note: GitHub Stats, Top Languages, Streak, and Trophy widgets are excluded because their third-party hosting services (Vercel/Heroku community deployments) are currently unavailable. They will be added once service is restored.*
 
 ---
 
@@ -305,17 +264,8 @@ If you find my open-source projects useful, you can support future development o
 
 ---
 
-## 📬 Contact
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sravani-kamjula-763285176)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sravanikamjula@gmail.com)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sravanikamjula)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KamjulaSravani)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula)
-[![Upwork](https://img.shields.io/badge/Upwork-Freelance_Profile-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01eeddf9788df2cd20)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sravanikamc)
+**🚀 Open to Data Analyst, Data Engineer, Analytics Engineer, AI/ML Engineer, and Full-Stack Data Engineer roles — let's connect using any link above.**
 
 </div>
