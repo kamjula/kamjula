@@ -7,7 +7,7 @@
 
 Building data platforms, analytics systems, machine-learning workflows, and full-stack data applications.
 
-🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities
+🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities.
 
 📍 United States
 
@@ -266,6 +266,6 @@ If you find my open-source projects useful, you can support future development o
 
 <div align="center">
 
-**🚀 Open to Data Analyst, Data Engineer, Analytics Engineer, AI/ML Engineer, and Full-Stack Data Engineer roles — let's connect using any link above.**
+**🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities.**
 
 </div>
