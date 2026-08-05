@@ -91,7 +91,7 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 <img src="./assets/RoboOps_Concept.png" alt="RoboOps Robotics Fleet Monitoring Platform Concept Preview" width="100%" />
 </div>
 
-**Status: Planning & Architecture Phase.** *The image above is a concept preview representing the intended product direction. The project has not yet been fully implemented.*
+**Status: Active Development.** *Phase 1 (React/Vite frontend, FastAPI backend, PostgreSQL via Docker Compose) and Phase 2 (SQLAlchemy models, Alembic migrations, seed data, and automated tests) are implemented in the repository. Dashboards, Kafka streaming, and cloud deployment are still in progress; the image above represents the intended product direction.*
 
 RoboOps is a planned enterprise robotics operations platform focused on robot fleet monitoring, telemetry analysis, anomaly detection, predictive maintenance, and operational intelligence.
 
@@ -134,7 +134,7 @@ React Dashboard
 Alerts & Operational Insights
 ```
 
-*Features and technologies listed above represent the intended roadmap and have not yet been fully implemented.*
+*Backend data model and API scaffolding for the items above are implemented (see repository for details); frontend dashboards, cloud deployment, and some sensor/streaming features are still in progress.*
 
 ---
 
@@ -242,27 +242,7 @@ Alerts & Operational Insights
 | 🛒 E-Commerce Sales Analysis | End-to-end EDA covering regional trends, category performance, and business insights | Python, SQL, Tableau | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
 | ☁️ Amazon Data Analyst Prep | SQL, Python, and Tableau practice plan for data analyst interview preparation | SQL, Python, Tableau | [Repo](https://github.com/kamjula/Amazon-data-analyst-prep) |
 
----
 
-## 📈 GitHub Activity
-
-<div align="center">
-
-[![Sravani's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamjula&theme=github-compact&hide_border=true)](https://github.com/kamjula)
-
-</div>
-
-*Note: GitHub Stats, Top Languages, Streak, and Trophy widgets are excluded because their third-party hosting services (Vercel/Heroku community deployments) are currently unavailable. They will be added once service is restored.*
-
----
-
-## ☕ Support My Work
-
-If you find my open-source projects useful, you can support future development of CortexOS and other practical data projects.
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sravanikamc)
-
----
 
 <div align="center">
 
