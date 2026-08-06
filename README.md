@@ -244,6 +244,20 @@ Alerts & Operational Insights
 
 
 
+---
+
+## 📈 GitHub Activity
+
+<div align="center">
+  
+[![Sravani's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamjula&theme=github-compact&hide_border=true)](https://github.com/kamjula)
+  
+</div>
+  
+*Note: GitHub Stats, Top Languages, Streak, and Trophy widgets are excluded because their third-party hosting services (Vercel/Heroku community deployments) are currently unavailable. They will be added once service is restored.*
+  
+---
+  
 <div align="center">
 
 **🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities.**
