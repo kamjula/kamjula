@@ -29,6 +29,20 @@ Building data platforms, analytics systems, machine-learning workflows, and full
 
 ---
 
+## ⚡ Quick Highlights
+
+- CortexOS — Full-stack data platform built with React, Node.js, Express, and PostgreSQL featuring pipeline monitoring, data quality workflows, and alerting.
+
+- Professional Experience — Built SQL reports, supported ETL workflows, and developed data analytics solutions using Python and SQL.
+
+- Portfolio — 6+ projects spanning AI, data engineering, fraud detection, self-healing pipelines, and end-to-end analytics.
+
+- AI Skills — Experience with Claude API, OpenAI, LLM applications, and modern AI development workflows.
+
+📌 Pinned repositories above showcase the code. Scroll down for detailed project write-ups, technical stack, certifications, and experience.
+
+---
+
 ## 🚀 Flagship Project — CortexOS — Enterprise Data Operations Platform
 
 A deployed full-stack platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted interface prototypes.
