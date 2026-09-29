@@ -33,6 +33,8 @@ Building data platforms, analytics systems, machine-learning workflows, and full
 
 - CortexOS — Full-stack data platform built with React, Node.js, Express, and PostgreSQL featuring pipeline monitoring, data quality workflows, and alerting.
 
+- DataPulse — GenAI data reliability copilot: ML anomaly detection (robust z-score + IsolationForest) over live pipeline telemetry, RAG runbook diagnosis with citations, shipped incrementally via daily PRs.
+
 - Professional Experience — Built SQL reports, supported ETL workflows, and developed data analytics solutions using Python and SQL.
 
 - Portfolio — 6+ projects spanning AI, data engineering, fraud detection, self-healing pipelines, and end-to-end analytics.
@@ -109,6 +111,42 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 - The public viewer uses synthetic data and read-only access. Hosted readings are generated examples, not real robot measurements.
 
 [Repository](https://github.com/kamjula/roboops-platform) · [Live demo](https://roboops-platform.vercel.app/) · [Architecture](https://github.com/kamjula/roboops-platform/blob/main/docs/architecture.md) · [Recruiter tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md)
+
+---
+
+## ⚡ DataPulse — GenAI Data Reliability Copilot
+
+"ML detects, GenAI explains" — a data reliability copilot that watches pipeline telemetry, flags anomalies with machine learning, and explains root causes by citing runbook sources.
+
+<div align="center">
+<a href="https://github.com/kamjula/datapulse">
+<img src="./assets/datapulse-overview.png" alt="DataPulse GenAI Data Reliability Copilot" width="100%" />
+</a>
+</div>
+
+<div align="center">
+
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/datapulse)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
+
+</div>
+
+### ✅ What it does
+
+- Live telemetry simulator emitting rows, latency, null-rate, and freshness every second
+- ML anomaly detection — robust z-score (median/MAD) + IsolationForest for multivariate anomalies
+- Chaos panel — one-click fault injection: volume spike/drop, latency spike, null surge, schema change, stale feed
+- RAG copilot — TF-IDF search over runbooks; every diagnosis cites its source
+- Abstention guardrail — off-topic questions get an honest refusal instead of a guess
+- Eval harness — precision/recall/F1 on seeded scenarios (F1 0.96+), exit-code gated
+
+### DataPulse Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
