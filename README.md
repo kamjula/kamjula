@@ -37,6 +37,8 @@ Building data platforms, analytics systems, machine-learning workflows, and full
 
 - Portfolio — 6+ projects spanning AI, data engineering, fraud detection, self-healing pipelines, and end-to-end analytics.
 
+- [RoboOps](https://github.com/kamjula/roboops-platform) — Full-stack robotics fleet condition-analytics demo built with React, FastAPI, and PostgreSQL. Includes synthetic telemetry, read-only viewer access, trend/anomaly signals, and Kafka/Redpanda + DLQ workflows verified locally and in CI; signals are not validated failure predictions. [Live demo](https://roboops-platform.vercel.app/).
+
 - AI Skills — Experience with Claude API, OpenAI, LLM applications, and modern AI development workflows.
 
 📌 Pinned repositories above showcase the code. Scroll down for detailed project write-ups, technical stack, certifications, and experience.
@@ -97,58 +99,16 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 
 ---
 
-## 🤖 Future Project — RoboOps
+## 🤖 RoboOps — Robotics Fleet Monitoring & Condition Analytics
 
-### Robotics Fleet Monitoring & Predictive Maintenance Platform
+A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. The React/Vite frontend uses a FastAPI backend and PostgreSQL persistence.
 
-<div align="center">
-<img src="./assets/RoboOps_Concept.png" alt="RoboOps Robotics Fleet Monitoring Platform Concept Preview" width="100%" />
-</div>
+- Explore the dashboard, robot inventory, telemetry, health signals, alerts, maintenance records, tasks, analytics, and a rule-based guided assistant.
+- Telemetry workflows include idempotent HTTP ingestion and Kafka/Redpanda producer-consumer processing with DLQ handling; Kafka is verified locally and in CI, and is not a hosted-demo dependency.
+- Health and analytics surfaces show rule-based and statistical condition/anomaly signals. They are not validated failure predictions or remaining-useful-life estimates.
+- The public viewer uses synthetic data and read-only access. Hosted readings are generated examples, not real robot measurements.
 
-**Status: Active Development.** *Phase 1 (React/Vite frontend, FastAPI backend, PostgreSQL via Docker Compose) and Phase 2 (SQLAlchemy models, Alembic migrations, seed data, and automated tests) are implemented in the repository. Dashboards, Kafka streaming, and cloud deployment are still in progress; the image above represents the intended product direction.*
-
-RoboOps is a planned enterprise robotics operations platform focused on robot fleet monitoring, telemetry analysis, anomaly detection, predictive maintenance, and operational intelligence.
-
-### Planned Capabilities
-
-- Robot fleet overview and operational status
-- Real-time telemetry monitoring
-- Battery, temperature, vibration, and motor-health tracking
-- Fault and anomaly detection
-- Predictive maintenance workflows
-- Task and route tracking
-- Maintenance history
-- Utilization analytics
-- Operational alerts and notifications
-- AI-assisted incident-summary prototype
-
-### Planned Technology Stack
-
-- **Frontend:** React, JavaScript, Recharts
-- **Backend:** Python, FastAPI
-- **Database:** PostgreSQL
-- **Streaming:** Apache Kafka
-- **Cloud:** AWS S3, EC2, RDS
-- **Analytics:** Python, Pandas, Scikit-learn
-- **Development:** Git, GitHub, VS Code
-
-### Planned Architecture
-
-```text
-Robots / Simulated Sensors
-↓
-Kafka Streaming
-↓
-Python FastAPI
-↓
-PostgreSQL
-↓
-React Dashboard
-↓
-Alerts & Operational Insights
-```
-
-*Backend data model and API scaffolding for the items above are implemented (see repository for details); frontend dashboards, cloud deployment, and some sensor/streaming features are still in progress.*
+[Repository](https://github.com/kamjula/roboops-platform) · [Live demo](https://roboops-platform.vercel.app/) · [Architecture](https://github.com/kamjula/roboops-platform/blob/main/docs/architecture.md) · [Recruiter tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md)
 
 ---
 
