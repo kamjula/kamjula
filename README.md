@@ -3,11 +3,11 @@
 
 # Sravani Kamjula
 
-**Data Analyst | Data Scientist | Data Engineer | Analytics Engineer | AI/ML Engineer | Full-Stack Data Engineer**
+**Data Scientist | Applied AI & Data Systems**
 
-Building data platforms, analytics systems, machine-learning workflows, and full-stack data applications.
+Building practical ML, GenAI, and data systems with reproducible evaluations and clear limitations.
 
-🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities.
+🟢 Open to Applied AI/ML and Data Scientist opportunities.
 
 📍 United States
 
@@ -33,7 +33,7 @@ Building data platforms, analytics systems, machine-learning workflows, and full
 
 - CortexOS — Full-stack data platform built with React, Node.js, Express, and PostgreSQL featuring pipeline monitoring, data quality workflows, and alerting.
 
-- DataPulse — GenAI data reliability copilot: ML anomaly detection (robust z-score + IsolationForest) over live pipeline telemetry, RAG runbook diagnosis with citations, shipped incrementally via daily PRs.
+- DataPulse — Locally runnable GenAI reliability copilot for simulated telemetry; robust z-score, schema-drift checks and source-cited runbook RAG. Synthetic evaluation F1 0.98.
 
 - Professional Experience — Built SQL reports, supported ETL workflows, and developed data analytics solutions using Python and SQL.
 
@@ -52,14 +52,14 @@ Building data platforms, analytics systems, machine-learning workflows, and full
 A deployed full-stack platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted interface prototypes.
 
 <div align="center">
-<a href="https://cortexos-frontend.onrender.com">
-<img src="./assets/CortexOS_Cover_.png" alt="CortexOS Enterprise Data Operations Platform" width="100%" />
+<a href="https://github.com/kamjula/cortex-enterprise">
+<img src="https://raw.githubusercontent.com/kamjula/cortex-enterprise/main/screenshots/cortexos-overview.png" alt="CortexOS Enterprise Data Operations Platform" width="100%" />
 </a>
 </div>
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://cortexos-frontend.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://cortex-enterprise-sigma.vercel.app)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/cortex-enterprise)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
 
@@ -74,15 +74,14 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 - Data-quality metrics and validation views
 - Alert creation, update, resolution, and deletion
 - Express REST API integration
-- Frontend and backend deployment on Render
+- React frontend and Express backend with PostgreSQL persistence
 
-### 🧪 UI Prototypes — Not Connected to a Live Backend
+### 🔐 Authentication, AI and limitations
 
-- AI Copilot
-- User Management
-- Settings
-
-*Note: Authentication and role-based access control are not yet implemented.*
+- JWT authentication with Admin/Editor/Viewer role-based access controls
+- Optional OpenAI-backed Copilot; aggregate operational context is disabled by default
+- Pipeline trigger/retry updates stored status; it does not execute a real orchestration job
+- Hosted demo availability depends on deployment configuration
 
 ### CortexOS Tech Stack
 
@@ -116,13 +115,7 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 
 ## ⚡ DataPulse — GenAI Data Reliability Copilot
 
-"ML detects, GenAI explains" — a data reliability copilot that watches pipeline telemetry, flags anomalies with machine learning, and explains root causes by citing runbook sources.
-
-<div align="center">
-<a href="https://github.com/kamjula/datapulse">
-<img src="./assets/datapulse-overview.png" alt="DataPulse GenAI Data Reliability Copilot" width="100%" />
-</a>
-</div>
+"ML detects, GenAI explains" — a locally runnable copilot that analyzes simulated pipeline telemetry, detects anomalies, and explains incidents with cited runbook sources.
 
 <div align="center">
 
@@ -133,12 +126,13 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 
 ### ✅ What it does
 
-- Live telemetry simulator emitting rows, latency, null-rate, and freshness every second
-- ML anomaly detection — robust z-score (median/MAD) + IsolationForest for multivariate anomalies
-- Chaos panel — one-click fault injection: volume spike/drop, latency spike, null surge, schema change, stale feed
-- RAG copilot — TF-IDF search over runbooks; every diagnosis cites its source
+- Simulated telemetry emitting rows, latency, null-rate, freshness, and schema version
+- Anomaly detection — robust z-score (median/MAD) + schema-drift checks; IsolationForest was removed after ablation
+- Chaos panel — seven synthetic fault injections including volume spike/drop, latency, null surge, schema change, stale feed, and duplicate surge
+- RAG copilot — TF-IDF retrieval over five runbooks with cited diagnoses and optional Claude narration
 - Abstention guardrail — off-topic questions get an honest refusal instead of a guess
-- Eval harness — precision/recall/F1 on seeded scenarios (F1 0.96+), exit-code gated
+- Synthetic evaluation — precision **0.96**, recall **1.00**, F1 **0.98**, detection delay **0 ticks**; 16 `unittest` tests
+- **Run locally** with FastAPI or Docker; no production or hosted demo claims
 
 ### DataPulse Tech Stack
 
@@ -147,18 +141,6 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 📊 Selected Impact
-
-| Area | Result |
-|---|---|
-| EDI Operations | Supported 50K+ transactions across multiple trading partners |
-| Reporting Automation | Reduced monthly reporting effort by 30% |
-| SQL Automation | Automated 6 recurring SQL reports |
-| ETL Validation | Validated 10+ ETL workflows with full reconciliation |
-| Process Efficiency | Saved approximately 8 hours per week through automation |
 
 ---
 
@@ -221,17 +203,6 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 ![Anomaly Review](https://img.shields.io/badge/Anomaly_Review-6c757d?style=flat-square)
 ![Quality Monitoring](https://img.shields.io/badge/Quality_Monitoring-6c757d?style=flat-square)
 
-### EDI
-
-![EDI 850](https://img.shields.io/badge/EDI_850-6c757d?style=flat-square)
-![EDI 855](https://img.shields.io/badge/EDI_855-6c757d?style=flat-square)
-![EDI 810](https://img.shields.io/badge/EDI_810-6c757d?style=flat-square)
-![EDI 856](https://img.shields.io/badge/EDI_856-6c757d?style=flat-square)
-![EDI 997](https://img.shields.io/badge/EDI_997-6c757d?style=flat-square)
-![AS2](https://img.shields.io/badge/AS2-6c757d?style=flat-square)
-![SFTP](https://img.shields.io/badge/SFTP-6c757d?style=flat-square)
-![VAN](https://img.shields.io/badge/VAN-6c757d?style=flat-square)
-
 ---
 
 ## 📜 Certifications — Anthropic
@@ -249,8 +220,8 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 | Project | Purpose | Stack | Repository |
 |---|---|---|---|
 | 🛡️ Healthcare Fraud Detection | Detects potentially fraudulent medical claims using rule-based anomaly detection | Python, SQL, Pandas | [Repo](https://github.com/kamjula/healthcare-fraud-detection) |
-| 🔍 Enterprise Data Detective | Profiles enterprise data and flags suspicious transactions with plain-language exploration | Python, SQL, DuckDB, Streamlit | [Repo](https://github.com/kamjula/enterprise-data-detective) |
-| 🔧 Self-Healing Data Pipeline | Detects and resolves missing values, schema drift, and duplicates without manual work | Python, SQL | [Repo](https://github.com/kamjula/Self-Healing-Data-Pipeline) |
+| 🔍 Enterprise Data Detective | Profiles synthetic transactions, flags anomalies, and supports natural-language SQL exploration | Python, SQL, DuckDB, Streamlit | [Repo](https://github.com/kamjula/enterprise-data-detective) |
+| 🔧 Self-Healing Data Pipeline | Exploratory concept for automated data-quality recovery | Python, SQL | [Repo](https://github.com/kamjula/Self-Healing-Data-Pipeline) |
 | 🛒 E-Commerce Sales Analysis | End-to-end EDA covering regional trends, category performance, and business insights | Python, SQL, Tableau | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
 | ☁️ Amazon Data Analyst Prep | SQL, Python, and Tableau practice plan for data analyst interview preparation | SQL, Python, Tableau | [Repo](https://github.com/kamjula/Amazon-data-analyst-prep) |
 
@@ -266,12 +237,11 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
   
 </div>
   
-*Note: GitHub Stats, Top Languages, Streak, and Trophy widgets are excluded because their third-party hosting services (Vercel/Heroku community deployments) are currently unavailable. They will be added once service is restored.*
   
 ---
   
 <div align="center">
 
-**🟢 Open to Data Analyst, Data Scientist, Data Engineer, AI/ML Engineer, Analytics Engineer, Data Quality, and Full-Stack Data Engineer opportunities.**
+**🟢 Open to Applied AI/ML and Data Scientist opportunities.**
 
 </div>
