@@ -49,7 +49,7 @@ Building practical ML, GenAI, and data systems with reproducible evaluations and
 
 ## 🚀 Flagship Project — CortexOS — Enterprise Data Operations Platform
 
-A deployed full-stack platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted interface prototypes.
+A deployed full-stack platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted operational workflows.
 
 <div align="center">
 <a href="https://github.com/kamjula/cortex-enterprise">
@@ -96,7 +96,6 @@ A deployed full-stack platform for dataset management, pipeline monitoring, data
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
 
@@ -129,7 +128,7 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 - Simulated telemetry emitting rows, latency, null-rate, freshness, and schema version
 - Anomaly detection — robust z-score (median/MAD) + schema-drift checks; IsolationForest was removed after ablation
 - Chaos panel — seven synthetic fault injections including volume spike/drop, latency, null surge, schema change, stale feed, and duplicate surge
-- RAG copilot — TF-IDF retrieval over five runbooks with cited diagnoses and optional Claude narration
+- RAG copilot — TF-IDF retrieval over six runbooks with cited diagnoses and optional Claude narration
 - Abstention guardrail — off-topic questions get an honest refusal instead of a guess
 - Synthetic evaluation — precision **0.96**, recall **1.00**, F1 **0.98**, detection delay **0 ticks**; 16 `unittest` tests
 - **Run locally** with FastAPI or Docker; no production or hosted demo claims
@@ -176,7 +175,6 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![ETL/ELT](https://img.shields.io/badge/ETL%2FELT-4B8BBE?style=for-the-badge)
 ![Informatica](https://img.shields.io/badge/Informatica-FF4713?style=for-the-badge)
-![SSIS](https://img.shields.io/badge/SSIS-A6192E?style=for-the-badge)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -191,7 +189,6 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Data Quality
 
@@ -219,11 +216,10 @@ A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. 
 
 | Project | Purpose | Stack | Repository |
 |---|---|---|---|
-| 🛡️ Healthcare Fraud Detection | Detects potentially fraudulent medical claims using rule-based anomaly detection | Python, SQL, Pandas | [Repo](https://github.com/kamjula/healthcare-fraud-detection) |
+| 🛡️ Healthcare Fraud Detection | Explores synthetic healthcare claims using rule-based flags and XGBoost scoring | Python, SQL, Pandas, XGBoost | [Repo](https://github.com/kamjula/healthcare-fraud-detection) |
 | 🔍 Enterprise Data Detective | Profiles synthetic transactions, flags anomalies, and supports natural-language SQL exploration | Python, SQL, DuckDB, Streamlit | [Repo](https://github.com/kamjula/enterprise-data-detective) |
 | 🔧 Self-Healing Data Pipeline | Exploratory concept for automated data-quality recovery | Python, SQL | [Repo](https://github.com/kamjula/Self-Healing-Data-Pipeline) |
-| 🛒 E-Commerce Sales Analysis | End-to-end EDA covering regional trends, category performance, and business insights | Python, SQL, Tableau | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
-| ☁️ Amazon Data Analyst Prep | SQL, Python, and Tableau practice plan for data analyst interview preparation | SQL, Python, Tableau | [Repo](https://github.com/kamjula/Amazon-data-analyst-prep) |
+| 🛒 E-Commerce Sales Analysis | Notebook-based EDA of sales patterns and business insights | Python, Pandas, Matplotlib, Seaborn | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
 
 
 
