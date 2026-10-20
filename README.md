@@ -29,7 +29,7 @@ Building reliable AI-powered data products through anomaly detection, grounded G
 
 ---
 
-## ⭐ Featured Work — Recruiter Quick View
+## ⭐ Featured Projects | Quick Overview
 
 | Project | What I built | Evidence |
 |---|---|---|
