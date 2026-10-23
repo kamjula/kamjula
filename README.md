@@ -11,7 +11,7 @@ Building reliable AI-powered data products through anomaly detection, grounded G
 
 📍 United States
 
-![Profile Views](https://komarev.com/ghpvc/?username=kamjula&color=6a5acd&style=flat-square&label=Profile%20Views)
+![Profile Views](https://komarev.com/ghpvc/?username=kamjula)
 
 </div>
 
