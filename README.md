@@ -11,6 +11,8 @@ Building reliable AI-powered data products through anomaly detection, grounded G
 
 📍 United States
 
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=kamjula.kamjula)
+
 
 </div>
 
