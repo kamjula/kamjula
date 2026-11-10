@@ -1,68 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
-  <title id="title">AI/ML Engineering Systems</title>
-  <desc id="desc">Professional systems diagram showing data, machine learning, RAG, APIs, and evaluation.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity=".28"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+<title id="title">AI systems engineering visual</title>
+<desc id="desc">Minimal professional engineering card for Python, RAG, FastAPI, and evaluation.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0f1c"/>
+    <stop offset="100%" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7dd3fc"/>
+    <stop offset="100%" stop-color="#c4b5fd"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="518" height="358" rx="24" fill="url(#bg)" stroke="#243244" stroke-width="2"/>
 
-  <rect width="640" height="420" rx="30" fill="url(#bg)"/>
-  <rect x="1" y="1" width="638" height="418" rx="29" fill="none" stroke="#273449" stroke-width="2"/>
+<text x="40" y="54" fill="#e5e7eb" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.8">AI SYSTEMS ENGINEERING</text>
+<text x="40" y="88" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="13">Python · RAG · FastAPI · Evaluation</text>
 
-  <circle cx="70" cy="66" r="5" fill="#60a5fa"/>
-  <text x="88" y="72" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">AI / ML ENGINEERING</text>
-  <text x="70" y="112" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Production-minded systems</text>
-  <text x="70" y="140" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="16">Reliable data → grounded AI → measurable outcomes</text>
+<g transform="translate(40,120)">
+  <rect width="440" height="145" rx="16" fill="#0f172a" stroke="#263446"/>
+  <circle cx="22" cy="20" r="4" fill="#ef4444"/>
+  <circle cx="38" cy="20" r="4" fill="#f59e0b"/>
+  <circle cx="54" cy="20" r="4" fill="#22c55e"/>
 
-  <g stroke="url(#accent)" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M120 250 H210"/>
-    <path d="M250 250 H340"/>
-    <path d="M380 250 H470"/>
-  </g>
+  <text x="22" y="56" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">$ build_ai_system</text>
+  <text x="22" y="83" fill="#dbeafe" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">data  →  detect  →  retrieve</text>
+  <text x="22" y="108" fill="#ddd6fe" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">       →  serve   →  evaluate</text>
+  <line x1="22" y1="126" x2="402" y2="126" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+</g>
 
-  <g fill="#60a5fa">
-    <polygon points="205,244 217,250 205,256"/>
-    <polygon points="335,244 347,250 335,256"/>
-    <polygon points="465,244 477,250 465,256"/>
-  </g>
+<g transform="translate(40,292)" font-family="Inter,Arial,sans-serif">
+  <rect x="0" y="0" width="90" height="32" rx="16" fill="#111c2f" stroke="#334155"/>
+  <text x="45" y="21" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="700">RELIABLE</text>
 
-  <g filter="url(#shadow)">
-    <rect x="55" y="205" width="120" height="90" rx="18" fill="#111c2f" stroke="#31415c"/>
-    <rect x="185" y="205" width="120" height="90" rx="18" fill="#111c2f" stroke="#31415c"/>
-    <rect x="315" y="205" width="120" height="90" rx="18" fill="#111c2f" stroke="#31415c"/>
-    <rect x="445" y="205" width="140" height="90" rx="18" fill="#111c2f" stroke="#31415c"/>
-  </g>
+  <rect x="105" y="0" width="100" height="32" rx="16" fill="#111c2f" stroke="#334155"/>
+  <text x="155" y="21" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="700">GROUNDED</text>
 
-  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <circle cx="115" cy="230" r="9" fill="#60a5fa"/>
-    <text x="115" y="265" fill="#f8fafc" font-size="17" font-weight="700">DATA</text>
-    <text x="115" y="284" fill="#94a3b8" font-size="12">quality · telemetry</text>
+  <rect x="220" y="0" width="108" height="32" rx="16" fill="#111c2f" stroke="#334155"/>
+  <text x="274" y="21" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="700">MEASURABLE</text>
 
-    <circle cx="245" cy="230" r="9" fill="#818cf8"/>
-    <text x="245" y="265" fill="#f8fafc" font-size="17" font-weight="700">ML</text>
-    <text x="245" y="284" fill="#94a3b8" font-size="12">detect · score</text>
-
-    <circle cx="375" cy="230" r="9" fill="#a78bfa"/>
-    <text x="375" y="265" fill="#f8fafc" font-size="17" font-weight="700">RAG</text>
-    <text x="375" y="284" fill="#94a3b8" font-size="12">retrieve · ground</text>
-
-    <circle cx="515" cy="230" r="9" fill="#c084fc"/>
-    <text x="515" y="265" fill="#f8fafc" font-size="17" font-weight="700">APIs</text>
-    <text x="515" y="284" fill="#94a3b8" font-size="12">FastAPI · services</text>
-  </g>
-
-  <path d="M515 305 C515 355 390 365 320 365 C225 365 115 350 115 305" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="6 7"/>
-  <rect x="238" y="340" width="164" height="44" rx="22" fill="#0f172a" stroke="#475569"/>
-  <text x="320" y="368" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" text-anchor="middle">EVALUATE · OBSERVE</text>
-
-  <text x="70" y="397" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="12">GenAI · RAG · FastAPI · ML systems · data reliability</text>
+  <rect x="343" y="0" width="97" height="32" rx="16" fill="#111c2f" stroke="#334155"/>
+  <text x="391.5" y="21" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="700">DEPLOYED</text>
+</g>
 </svg>
