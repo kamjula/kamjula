@@ -4,18 +4,30 @@
 
 ### AI/ML Engineer | Generative AI | Python | RAG | FastAPI
 
-I build production-minded AI/ML systems with a focus on **grounded GenAI, evaluation, APIs, data reliability, and clear failure handling**.
-
-**Current:** AI/ML Engineer — Epsilon  
-**Based in:** Irving, Texas  
-**Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
-
 [Portfolio](https://sravaniportfoli.netlify.app/) ·
 [LinkedIn](https://www.linkedin.com/in/sravani-kamjula/) ·
 [Email](mailto:sravanikamjula@gmail.com) ·
 [Kaggle](https://www.kaggle.com/sravanikamjula)
 
 </div>
+
+---
+
+## About
+
+<img align="right" src="https://avatars.githubusercontent.com/u/47052243?v=4" alt="Sravani Kamjula" width="155" />
+
+I build **production-minded AI/ML systems** that connect reliable data, machine learning, grounded GenAI, APIs, and evaluation.
+
+My work focuses on turning AI prototypes into systems that are **measurable, inspectable, and explicit about their limitations** — from anomaly detection and RAG to FastAPI services, observability, and deployment workflows.
+
+**What I build**
+
+`Data & telemetry` → `ML detection` → `RAG / LLMs` → `FastAPI` → `Evaluation & observability`
+
+**Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
+
+<br clear="right" />
 
 ---
 
