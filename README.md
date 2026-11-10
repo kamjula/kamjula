@@ -15,19 +15,32 @@
 
 ## About
 
-<img align="right" src="https://avatars.githubusercontent.com/u/47052243?v=4" alt="Sravani Kamjula" width="155" />
+<table>
+<tr>
+<td width="72%">
 
 I build **production-minded AI/ML systems** that connect reliable data, machine learning, grounded GenAI, APIs, and evaluation.
 
-My work focuses on turning AI prototypes into systems that are **measurable, inspectable, and explicit about their limitations** — from anomaly detection and RAG to FastAPI services, observability, and deployment workflows.
+My focus is not just getting a model or LLM demo to work — it is making the system **measurable, inspectable, and explicit about failure modes and limitations**.
 
-**What I build**
+**Engineering flow**
 
 `Data & telemetry` → `ML detection` → `RAG / LLMs` → `FastAPI` → `Evaluation & observability`
 
+**Focus areas:** Generative AI · RAG · ML systems · data reliability · API engineering
+
 **Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
 
-<br clear="right" />
+</td>
+<td width="28%" align="center">
+
+<img src="https://avatars.githubusercontent.com/u/47052243?v=4" alt="Sravani Kamjula" width="170" />
+
+**AI/ML Engineer**
+
+</td>
+</tr>
+</table>
 
 ---
 
