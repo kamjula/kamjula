@@ -34,9 +34,7 @@ My focus is not just getting a model or LLM demo to work — it is making the sy
 </td>
 <td width="28%" align="center">
 
-<img src="https://avatars.githubusercontent.com/u/47052243?v=4" alt="Sravani Kamjula" width="170" />
-
-**AI/ML Engineer**
+<img src="https://raw.githubusercontent.com/kamjula/kamjula/main/assets/ai-ml-engineering.svg" alt="AI/ML engineering systems visual" width="250" />
 
 </td>
 </tr>
