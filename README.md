@@ -49,6 +49,11 @@ AWS · GCP Vertex AI · Docker · Kubernetes · Git · GitHub · CI/CD-oriented 
 ## Project Notes
 
 ### DataPulse — GenAI Data Reliability Copilot
+
+<a href="https://github.com/kamjula/datapulse">
+  <img src="https://raw.githubusercontent.com/kamjula/datapulse/main/datapulse-overview.png" alt="DataPulse GenAI Data Reliability Copilot overview" width="100%" />
+</a>
+
 A reproducible reliability workflow where ML detects pipeline anomalies and a grounded GenAI layer explains incidents using cited runbooks.
 
 - Robust z-score + schema-drift detection
@@ -60,6 +65,11 @@ A reproducible reliability workflow where ML detects pipeline anomalies and a gr
 [Repository](https://github.com/kamjula/datapulse)
 
 ### RoboOps — Robotics Fleet Monitoring & Condition Analytics
+
+<a href="https://roboops-platform.vercel.app/">
+  <img src="https://raw.githubusercontent.com/kamjula/roboops-platform/main/frontend/public/roboops-preview.png" alt="RoboOps robotics fleet monitoring dashboard" width="100%" />
+</a>
+
 A full-stack synthetic robotics monitoring platform with production-minded engineering choices.
 
 - FastAPI + PostgreSQL + React
@@ -69,6 +79,16 @@ A full-stack synthetic robotics monitoring platform with production-minded engin
 - Condition and anomaly outputs are explicitly labeled as signals, not validated failure predictions
 
 [Repository](https://github.com/kamjula/roboops-platform) · [Live demo](https://roboops-platform.vercel.app/)
+
+### CortexOS — Enterprise Data Operations Platform
+
+<a href="https://github.com/kamjula/cortex-enterprise">
+  <img src="https://raw.githubusercontent.com/kamjula/cortex-enterprise/main/screenshots/cortexos-overview.png" alt="CortexOS enterprise data operations platform" width="100%" />
+</a>
+
+Authenticated full-stack data operations platform with dataset management, pipeline monitoring, data-quality workflows, PostgreSQL persistence, RBAC, and an optional OpenAI-backed Copilot.
+
+[Repository](https://github.com/kamjula/cortex-enterprise) · [Live demo](https://cortex-enterprise-sigma.vercel.app/)
 
 ---
 
