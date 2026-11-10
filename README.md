@@ -1,248 +1,96 @@
 <div align="center">
-<img src="./assets/Sravani_portfolo.png" width="320" alt="Sravani Kamjula Illustration" />
 
 # Sravani Kamjula
 
-**Data Scientist | Applied AI & Data Systems**
+### AI/ML Engineer | Generative AI | Python | RAG | FastAPI
 
-Building reliable AI-powered data products through anomaly detection, grounded GenAI, and full-stack engineering.
+I build reliable AI/ML systems with a focus on **Generative AI, retrieval-augmented generation, evaluation, APIs, and production-minded data workflows**.
 
-🟢 Open to Applied AI/ML and Data Scientist opportunities.
+**Current:** AI/ML Engineer at Epsilon  
+**Based in:** Irving, Texas  
+**Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
 
-📍 United States
-
-![Profile Views](https://komarev.com/ghpvc/?username=kamjula)
-
-
-</div>
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sravani-kamjula-763285176)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sravanikamjula@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sravanikamjula)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KamjulaSravani)
-[![Upwork](https://img.shields.io/badge/Upwork-Freelance_Profile-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01eeddf9788df2cd20)
+[Portfolio](https://sravaniportfoli.netlify.app/) ·
+[LinkedIn](https://www.linkedin.com/in/sravani-kamjula/) ·
+[Email](mailto:sravanikamjula@gmail.com) ·
+[Kaggle](https://www.kaggle.com/sravanikamjula)
 
 </div>
 
 ---
 
-## ⭐ Featured Projects | Quick Overview
+## Selected Work
 
-| Project | What I built | Evidence |
+| Project | What it demonstrates | Evidence |
 |---|---|---|
-| [**DataPulse**](https://github.com/kamjula/datapulse) | Anomaly detection + runbook-grounded GenAI on simulated telemetry | **F1 0.98** on seeded synthetic evaluation; [run locally](https://github.com/kamjula/datapulse#quickstart) |
-| [**CortexOS**](https://github.com/kamjula/cortex-enterprise) | Authenticated data operations, quality dashboards and optional OpenAI Copilot | [Code](https://github.com/kamjula/cortex-enterprise) · [Hosted frontend](https://cortex-enterprise-sigma.vercel.app/) |
-| [**RoboOps**](https://github.com/kamjula/roboops-platform) | Robotics fleet telemetry, condition analytics and Kafka/Redpanda workflows | [Read-only demo](https://roboops-platform.vercel.app/) · [90-second tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md) |
-| [**Enterprise Data Detective**](https://github.com/kamjula/enterprise-data-detective) | Transaction profiling, anomaly checks and Claude-powered DuckDB Q&A | [Source and setup](https://github.com/kamjula/enterprise-data-detective) |
+| [**DataPulse**](https://github.com/kamjula/datapulse) | ML anomaly detection + RAG-grounded incident diagnosis + evals | Seeded synthetic eval: **Precision 0.96 · Recall 1.00 · F1 0.98** |
+| [**RoboOps**](https://github.com/kamjula/roboops-platform) | Production-minded FastAPI platform, telemetry, Kafka/Redpanda, PostgreSQL, auth, CI/security | [Read-only demo](https://roboops-platform.vercel.app/) · [Recruiter tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md) |
+| [**CortexOS**](https://github.com/kamjula/cortex-enterprise) | Enterprise data operations platform with authenticated workflows and optional AI Copilot | [Live demo](https://cortex-enterprise-sigma.vercel.app/) |
+| [**Enterprise Data Detective**](https://github.com/kamjula/enterprise-data-detective) | Python/DuckDB transaction profiling, rule-based anomaly checks, Claude-assisted Q&A | [Source](https://github.com/kamjula/enterprise-data-detective) |
 
-**How to evaluate my work:** Explore the linked source, reproducible tests/evaluations, and documented limitations. Demo and metric claims refer to synthetic or portfolio data, not customer production outcomes.
+> Metrics and demos above use synthetic or portfolio data. I document limitations rather than presenting portfolio results as customer production outcomes.
 
 ---
 
-## ⚡ DataPulse — GenAI Data Reliability Copilot
+## What I Work With
 
-"ML detects, GenAI explains" — a locally runnable copilot that analyzes simulated pipeline telemetry, detects anomalies, and explains incidents with cited runbook sources.
+**AI / ML**  
+Python · Machine Learning · Generative AI · LLMs · RAG · LangChain · LangGraph · scikit-learn · NLP · anomaly detection · evaluation
+
+**APIs & AI Applications**  
+FastAPI · REST APIs · Claude API · OpenAI · validation · logging · guardrails · grounded retrieval
+
+**Data Systems**  
+SQL · PostgreSQL · PySpark · Apache Spark · Airflow · ETL/ELT · data quality · reconciliation
+
+**Cloud & Delivery**  
+AWS · GCP Vertex AI · Docker · Kubernetes · Git · GitHub · CI/CD-oriented workflows
+
+---
+
+## Project Notes
+
+### DataPulse — GenAI Data Reliability Copilot
+A reproducible reliability workflow where ML detects pipeline anomalies and a grounded GenAI layer explains incidents using cited runbooks.
+
+- Robust z-score + schema-drift detection
+- IsolationForest evaluated and **removed after ablation**
+- RAG with runbook citations and abstention
+- LLM and CI-agent evaluation harnesses
+- Precision **0.96**, recall **1.00**, F1 **0.98** on seeded synthetic evaluation
+
+[Repository](https://github.com/kamjula/datapulse)
+
+### RoboOps — Robotics Fleet Monitoring & Condition Analytics
+A full-stack synthetic robotics monitoring platform with production-minded engineering choices.
+
+- FastAPI + PostgreSQL + React
+- Idempotent telemetry ingestion
+- Kafka/Redpanda workflow with retry/DLQ handling
+- JWT/RBAC, Prometheus metrics, tests, CI and security workflows
+- Condition and anomaly outputs are explicitly labeled as signals, not validated failure predictions
+
+[Repository](https://github.com/kamjula/roboops-platform) · [Live demo](https://roboops-platform.vercel.app/)
+
+---
+
+## Certifications
+
+- **Building with the Claude API** — Anthropic
+- **Claude Code 101** — Anthropic
+- **AI Fluency: Framework & Foundations** — Anthropic
+- **Machine Learning A-Z: AI, Python & R** — Udemy
+- **Microsoft Power BI Data Analyst Specialization**
+- **Google Data Analytics Specialization**
+
+---
+
+## Earlier / Supporting Work
+
+My earlier repositories include data engineering, SQL/Python analytics, and interview-preparation work. They are kept as supporting history; my current focus is **AI/ML engineering and Generative AI systems**.
 
 <div align="center">
 
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/datapulse)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
-
-</div>
-
-### ✅ What it does
-
-- Simulated telemetry emitting rows, latency, null-rate, freshness, and schema version
-- Anomaly detection — robust z-score (median/MAD) + schema-drift checks; IsolationForest was removed after ablation
-- Chaos panel — seven synthetic fault injections including volume spike/drop, latency, null surge, schema change, stale feed, and duplicate surge
-- RAG copilot — TF-IDF retrieval over six runbooks with cited diagnoses and optional Claude narration
-- Abstention guardrail — off-topic questions get an honest refusal instead of a guess
-- Synthetic evaluation — precision **0.96**, recall **1.00**, F1 **0.98**, detection delay **0 ticks**; 16 `unittest` tests
-- **Run locally** with FastAPI or Docker; no production or hosted demo claims
-
-### DataPulse Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 🏗️ CortexOS — Enterprise Data Operations Platform
-
-A full-stack portfolio platform for dataset management, pipeline monitoring, data-quality workflows, operational alerts, and AI-assisted operational workflows.
-
-<div align="center">
-<a href="https://github.com/kamjula/cortex-enterprise">
-<img src="https://raw.githubusercontent.com/kamjula/cortex-enterprise/main/screenshots/cortexos-overview.png" alt="CortexOS Enterprise Data Operations Platform" width="100%" />
-</a>
-</div>
-
-<div align="center">
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://cortex-enterprise-sigma.vercel.app)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamjula/cortex-enterprise)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sravaniportfoli.netlify.app/)
-
-</div>
-
-### ✅ Functional Modules — Connected to PostgreSQL and Express REST API
-
-- Dataset management with PostgreSQL-backed CRUD
-- Pipeline monitoring
-- Pipeline trigger and retry workflows
-- Log views derived from stored pipeline fields (not persisted execution logs)
-- Data-quality metrics and validation views
-- Alert creation, update, resolution, and deletion
-- Express REST API integration
-- React frontend and Express backend with PostgreSQL persistence
-
-### 🔐 Authentication, AI and limitations
-
-- JWT authentication with Admin/Editor/Viewer role-based access controls
-- Optional OpenAI-backed Copilot; aggregate operational context is disabled by default
-- Pipeline trigger/retry updates stored status; it does not execute a real orchestration job
-- Hosted demo availability depends on deployment configuration
-
-### CortexOS Tech Stack
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge)
-![Lucide React](https://img.shields.io/badge/Lucide_React-1A1A1A?style=for-the-badge)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 🤖 RoboOps — Robotics Fleet Monitoring & Condition Analytics
-
-A deployed full-stack recruiter demo for monitoring a synthetic robotics fleet. The React/Vite frontend uses a FastAPI backend and PostgreSQL persistence.
-
-- Explore the dashboard, robot inventory, telemetry, health signals, alerts, maintenance records, tasks, analytics, and a rule-based guided assistant.
-- Telemetry workflows include idempotent HTTP ingestion and Kafka/Redpanda producer-consumer processing with DLQ handling; Kafka is verified locally and in CI, and is not a hosted-demo dependency.
-- Health and analytics surfaces show rule-based and statistical condition/anomaly signals. They are not validated failure predictions or remaining-useful-life estimates.
-- The public viewer uses synthetic data and read-only access. Hosted readings are generated examples, not real robot measurements.
-
-[Repository](https://github.com/kamjula/roboops-platform) · [Live demo](https://roboops-platform.vercel.app/) · [Architecture](https://github.com/kamjula/roboops-platform/blob/main/docs/architecture.md) · [Recruiter tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md)
-
----
-
-## 🕵️ Enterprise Data Detective — AI-Assisted Transaction Analytics
-
-A Streamlit-based exploration tool for **synthetic transactions**: profile CSV data, surface five grouped rule-based checks (six flag reasons), and use the Claude API to generate SQL for DuckDB-based analysis.
-
-**Stack:** Python · Pandas · DuckDB · Streamlit · Claude API
-
-[Source code and setup](https://github.com/kamjula/enterprise-data-detective) · **Current limitation:** the repository README and documented paths still need cleanup; treat it as a code portfolio project, not a hosted production service.
-
----
-
-## 🛠️ Skills & Technologies
-
-### Professional Experience — Analytics
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-2C2C2C?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Demonstrated in Public Projects — Data Science & Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Exploratory Data Analysis](https://img.shields.io/badge/Exploratory_Data_Analysis-6c757d?style=flat-square)
-![Anomaly Detection](https://img.shields.io/badge/Anomaly_Detection-6c757d?style=flat-square)
-![Predictive Analytics](https://img.shields.io/badge/Predictive_Analytics-6c757d?style=flat-square)
-![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-6c757d?style=flat-square)
-![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-6c757d?style=flat-square)
-
-### Professional Experience — Data Engineering
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![ETL/ELT](https://img.shields.io/badge/ETL%2FELT-4B8BBE?style=for-the-badge)
-![Informatica](https://img.shields.io/badge/Informatica-FF4713?style=for-the-badge)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge)
-
-### Demonstrated in Public Projects — Application Development
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### Professional Experience — Data Quality
-
-![Validation](https://img.shields.io/badge/Validation-6c757d?style=flat-square)
-![Reconciliation](https://img.shields.io/badge/Reconciliation-6c757d?style=flat-square)
-![Missing Value Checks](https://img.shields.io/badge/Missing--Value_Checks-6c757d?style=flat-square)
-![Duplicate Detection](https://img.shields.io/badge/Duplicate_Detection-6c757d?style=flat-square)
-![Schema Checks](https://img.shields.io/badge/Schema_Checks-6c757d?style=flat-square)
-![Anomaly Review](https://img.shields.io/badge/Anomaly_Review-6c757d?style=flat-square)
-![Quality Monitoring](https://img.shields.io/badge/Quality_Monitoring-6c757d?style=flat-square)
-
----
-
-## 📜 Certifications — Anthropic
-
-| Certification | Issuer | Completed | Credential |
-|---|---|---|---|
-| Building with the Claude API | Anthropic | June 15, 2026 | [Verify](https://verify.skilljar.com/c/mhg9boh2eiih) |
-| Claude Code 101 | Anthropic | June 13, 2026 | [Verify](https://verify.skilljar.com/c/s9bzgmf36ddp) |
-| AI Fluency: Framework & Foundations | Anthropic | June 12, 2026 | [Verify](https://verify.skilljar.com/c/dh8oxakx2o53) |
-
----
-
-## 📂 Additional Projects
-
-| Project | Purpose | Stack | Repository |
-|---|---|---|---|
-| 🛡️ Healthcare Fraud Detection | Synthetic healthcare-claims exploration with rules and XGBoost; repository README cleanup pending | Python, SQL, Pandas, XGBoost | [Repo](https://github.com/kamjula/healthcare-fraud-detection) |
-| 🔧 Self-Healing Data Pipeline *(concept only)* | Documentation-stage idea for automated data-quality recovery; not a completed pipeline | — | [Repo](https://github.com/kamjula/Self-Healing-Data-Pipeline) |
-| 🛒 E-Commerce Sales Analysis | Notebook-based EDA of sales patterns and business insights | Python, Pandas, Matplotlib, Seaborn | [Repo](https://github.com/kamjula/Ecommerce-sales-analysis) |
-
-
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-  
-[![Sravani's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamjula&theme=github-compact&hide_border=true)](https://github.com/kamjula)
-  
-</div>
-  
-  
----
-  
-<div align="center">
-
-**🟢 Open to Applied AI/ML and Data Scientist opportunities.**
+**AI/ML Engineer · Generative AI · Python · RAG · FastAPI**
 
 </div>
