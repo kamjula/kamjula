@@ -5,8 +5,7 @@
 ### AI/ML Engineer | Generative AI | Python | RAG | FastAPI
 
 I build reliable AI/ML systems with a focus on **Generative AI, retrieval-augmented generation, evaluation, APIs, and production-minded data workflows**.
-
-**Current:** AI/ML Engineer at Epsilon  
+ 
 **Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
 
 [Portfolio](https://sravaniportfoli.netlify.app/) ·
