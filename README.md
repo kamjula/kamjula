@@ -95,8 +95,7 @@ Full-stack data operations platform for authenticated dataset workflows, pipelin
 
 **Stack:** React · Node.js · Express · PostgreSQL · JWT · OpenAI
 
-[Repository](https://github.com/kamjula/cortex-enterprise) ·
-[Live demo](https://cortex-enterprise-sigma.vercel.app/)
+[Repository](https://github.com/kamjula/cortex-enterprise)
 
 ---
 
