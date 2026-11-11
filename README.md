@@ -54,6 +54,8 @@ My focus is not just getting a model or LLM demo to work — it is making the sy
 
 ## Featured Engineering Work
 
+Selected systems that show how I approach **AI reliability, data quality, APIs, evaluation, and production-minded delivery**.
+
 ### DataPulse — GenAI Data Reliability Copilot
 
 <a href="https://github.com/kamjula/datapulse">
@@ -101,9 +103,15 @@ My focus is not just getting a model or LLM demo to work — it is making the sy
   <img src="https://raw.githubusercontent.com/kamjula/cortex-enterprise/main/screenshots/cortexos-overview.png" alt="CortexOS enterprise data operations platform" width="100%" />
 </a>
 
-Full-stack data operations platform for authenticated dataset workflows, pipeline-status monitoring, data-quality summaries, alert management, user settings, RBAC, and an optional OpenAI-backed Copilot.
+**Problem:** enterprise data tooling needs operational visibility, access control, and AI assistance without exposing unnecessary data.  
+**Built:** an authenticated full-stack data operations platform with PostgreSQL persistence, RBAC, data-quality workflows, alerts, settings, and an optional OpenAI-backed Copilot.
 
-**Stack:** React · Node.js · Express · PostgreSQL · JWT · OpenAI
+- React + Node.js + Express + PostgreSQL
+- JWT access/refresh authentication with Admin / Editor / Viewer RBAC
+- Privacy-limited Copilot context using fixed aggregate queries
+- Dataset CRUD, alerts, data-quality summaries, pipeline status controls, and per-user settings
+- Docker Compose setup and documented secure deployment flow
+- Pipeline trigger/retry controls update stored status; they are **not presented as a real worker orchestrator**
 
 [Repository](https://github.com/kamjula/cortex-enterprise)
 
@@ -111,7 +119,15 @@ Full-stack data operations platform for authenticated dataset workflows, pipelin
 
 ### Enterprise Data Detective — AI-Assisted Transaction Analytics
 
-A Streamlit application for profiling transaction data, surfacing explainable heuristic anomaly signals, and answering plain-English questions by generating DuckDB SELECT queries with Claude.
+**Problem:** transaction review is easier to trust when profiling, anomaly reasons, and generated queries stay visible and inspectable.  
+**Built:** a compact Streamlit application that profiles data, surfaces explainable heuristic signals, and converts plain-English questions into DuckDB SELECT queries with Claude.
+
+- Pandas profiling for missing values, duplicates, numeric statistics, and date ranges
+- Explainable checks for amount outliers, velocity bursts, duplicate charges, off-hours activity, and other review signals
+- Human-readable reasons attached to every flagged transaction
+- Claude natural-language-to-SQL over a fixed transaction schema
+- DuckDB local execution on synthetic data
+- SELECT-only validation is documented as a **basic portfolio guard, not a production SQL sandbox**
 
 **Stack:** Python · Pandas · DuckDB · Streamlit · Claude API
 
@@ -130,17 +146,12 @@ A Streamlit application for profiling transaction data, surfacing explainable he
 
 ## Core Stack
 
-**AI / ML**  
-Python · Machine Learning · Generative AI · LLMs · RAG · LangChain · LangGraph · scikit-learn · NLP · anomaly detection · evaluation
-
-**AI Applications**  
-FastAPI · REST APIs · Claude API · OpenAI · grounded retrieval · guardrails · validation · logging
-
-**Data Systems**  
-SQL · PostgreSQL · PySpark · Apache Spark · Airflow · ETL/ELT · data quality · reconciliation
-
-**Cloud / Delivery**  
-AWS · GCP Vertex AI · Docker · Kubernetes · Git · GitHub · CI/CD-oriented workflows
+| Area | Working stack |
+|---|---|
+| **AI / ML** | Python · Generative AI · LLMs · RAG · LangChain · LangGraph · scikit-learn · NLP · anomaly detection · evaluation |
+| **AI Applications** | FastAPI · REST APIs · Claude API · OpenAI · grounded retrieval · guardrails · validation · logging |
+| **Data Systems** | SQL · PostgreSQL · PySpark · Apache Spark · Airflow · ETL/ELT · data quality · reconciliation |
+| **Cloud / Delivery** | AWS · GCP Vertex AI · Docker · Kubernetes · Git · GitHub · CI/CD-oriented workflows |
 
 ---
 
