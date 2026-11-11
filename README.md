@@ -27,7 +27,15 @@ My focus is not just getting a model or LLM demo to work — it is making the sy
 
 **Engineering flow**
 
-`Data & telemetry` → `ML detection` → `RAG / LLMs` → `FastAPI` → `Evaluation & observability`
+<img src="https://img.shields.io/badge/Data%20%26%20Telemetry-2563EB?style=flat-square&logo=postgresql&logoColor=white" alt="Data and Telemetry" />
+→
+<img src="https://img.shields.io/badge/ML%20Detection-4F46E5?style=flat-square&logo=scikitlearn&logoColor=white" alt="ML Detection" />
+→
+<img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="RAG and LLMs" />
+→
+<img src="https://img.shields.io/badge/FastAPI-0F766E?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+→
+<img src="https://img.shields.io/badge/Evaluation%20%26%20Observability-475569?style=flat-square&logo=grafana&logoColor=white" alt="Evaluation and Observability" />
 
 **Focus areas:** Generative AI · RAG · ML systems · data reliability · API engineering
 
