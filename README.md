@@ -7,14 +7,8 @@
 [Portfolio](https://sravaniportfoli.netlify.app/) ·
 [LinkedIn](https://www.linkedin.com/in/sravani-kamjula/) ·
 [Email](mailto:sravanikamjula@gmail.com) ·
-[Kaggle](https://www.kaggle.com/sravanikamjula)
-
-<br><br>
-
-**Building reliable AI systems from data to deployment.**
-
-<br>
-
+[Kaggle](https://www.kaggle.com/sravanikamjula)  
+**Building reliable AI systems from data to deployment.**  
 <img src="https://komarev.com/ghpvc/?username=kamjula&label=Profile%20views&style=flat" alt="GitHub profile views" />
 
 </div>
