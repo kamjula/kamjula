@@ -9,6 +9,10 @@
 [Email](mailto:sravanikamjula@gmail.com) ·
 [Kaggle](https://www.kaggle.com/sravanikamjula)
 
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=kamjula&label=Profile%20views&style=flat" alt="GitHub profile views" />
+
 </div>
 
 ---
