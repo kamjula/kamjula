@@ -93,7 +93,7 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 
 [Repository](https://github.com/kamjula/roboops-platform) ·
 [Live read-only demo](https://roboops-platform.vercel.app/) ·
-[90-second demo tour](https://github.com/kamjula/roboops-platform/blob/main/docs/recruiter-demo.md)
+[90-second demo tour](https://github.com/kamjula/roboops-platform/blob/main/docs/demo-tour.md)
 
 ---
 
