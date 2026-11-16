@@ -21,9 +21,9 @@
 <tr>
 <td width="72%">
 
-I build **production-minded AI/ML systems** that connect reliable data, machine learning, grounded GenAI, APIs, and evaluation.
+I build AI/ML systems end to end: data pipelines, machine learning, grounded GenAI, APIs, and the evaluation around them.
 
-My focus is not just getting a model or LLM demo to work — it is making the system **measurable, inspectable, and explicit about failure modes and limitations**.
+Getting a model or an LLM call to work is the easy part. Most of my time goes into making systems **measurable, easy to inspect, and clear about where they fail**.
 
 **Engineering flow**
 
@@ -54,9 +54,9 @@ My focus is not just getting a model or LLM demo to work — it is making the sy
 
 ## Featured Engineering Work
 
-Selected systems that show how I approach **AI reliability, data quality, APIs, evaluation, and production-minded delivery**.
+A few projects covering AI reliability, data quality, APIs, and evaluation.
 
-### DataPulse — GenAI Data Reliability Copilot
+### DataPulse: GenAI Data Reliability Copilot
 
 <a href="https://github.com/kamjula/datapulse">
   <img src="https://raw.githubusercontent.com/kamjula/datapulse/main/datapulse-overview.png" alt="DataPulse GenAI Data Reliability Copilot" width="100%" />
@@ -66,7 +66,7 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 **Built:** anomaly detection + runbook-grounded RAG + cited incident diagnosis + abstention + evaluation harnesses.
 
 - Robust z-score + schema-drift detection
-- IsolationForest was evaluated and **removed after ablation**
+- IsolationForest was evaluated and removed after an ablation showed no added value
 - Claude-backed narration with deterministic fallback
 - LangGraph CI-triage workflow with cited verification
 - Seeded synthetic evaluation: **Precision 0.96 · Recall 1.00 · F1 0.98**
@@ -75,21 +75,21 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 
 ---
 
-### RoboOps — Robotics Fleet Monitoring & Condition Analytics
+### RoboOps: Robotics Fleet Monitoring & Condition Analytics
 
 <a href="https://roboops-platform.vercel.app/">
   <img src="https://raw.githubusercontent.com/kamjula/roboops-platform/main/frontend/public/roboops-preview.png" alt="RoboOps fleet monitoring dashboard" width="100%" />
 </a>
 
-**Problem:** demonstrate a complete operational monitoring workflow without pretending synthetic signals are real failure predictions.  
-**Built:** a full-stack fleet platform with telemetry ingestion, analytics, alerts, maintenance records, RBAC, observability, and CI/security evidence.
+**Problem:** monitor a robot fleet end to end (telemetry, alerts, maintenance) on synthetic data, without treating anomaly signals as failure predictions.  
+**Built:** a full-stack fleet platform with telemetry ingestion, analytics, alerts, maintenance records, RBAC, observability, and CI security checks.
 
 - FastAPI + PostgreSQL + React
 - Idempotent HTTP/Kafka telemetry workflows
 - Kafka/Redpanda retry and DLQ handling
 - JWT/RBAC, Prometheus metrics, structured logging
 - Browser E2E, CodeQL, dependency audits, container scanning
-- Condition outputs are explicitly labeled as **signals**, not validated failure probabilities
+- Condition scores are labeled as anomaly signals, not validated failure probabilities
 
 [Repository](https://github.com/kamjula/roboops-platform) ·
 [Live read-only demo](https://roboops-platform.vercel.app/) ·
@@ -97,7 +97,7 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 
 ---
 
-### CortexOS — Enterprise Data Operations Platform
+### CortexOS: Enterprise Data Operations Platform
 
 <a href="https://github.com/kamjula/cortex-enterprise">
   <img src="https://raw.githubusercontent.com/kamjula/cortex-enterprise/main/screenshots/cortexos-overview.png" alt="CortexOS enterprise data operations platform" width="100%" />
@@ -111,13 +111,13 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 - Privacy-limited Copilot context using fixed aggregate queries
 - Dataset CRUD, alerts, data-quality summaries, pipeline status controls, and per-user settings
 - Docker Compose setup and documented secure deployment flow
-- Pipeline trigger/retry controls update stored status; they are **not presented as a real worker orchestrator**
+- Pipeline trigger/retry controls update stored status; there is no real worker orchestrator behind them
 
 [Repository](https://github.com/kamjula/cortex-enterprise)
 
 ---
 
-### Enterprise Data Detective — AI-Assisted Transaction Analytics
+### Enterprise Data Detective: AI-Assisted Transaction Analytics
 
 **Problem:** transaction review is easier to trust when profiling, anomaly reasons, and generated queries stay visible and inspectable.  
 **Built:** a compact Streamlit application that profiles data, surfaces explainable heuristic signals, and converts plain-English questions into DuckDB SELECT queries with Claude.
@@ -127,7 +127,7 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 - Human-readable reasons attached to every flagged transaction
 - Claude natural-language-to-SQL over a fixed transaction schema
 - DuckDB local execution on synthetic data
-- SELECT-only validation is documented as a **basic portfolio guard, not a production SQL sandbox**
+- SELECT-only validation is a basic guard, not a production SQL sandbox (documented in the README)
 
 **Stack:** Python · Pandas · DuckDB · Streamlit · Claude API
 
@@ -137,10 +137,10 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 
 ## Additional ML Work
 
-| Project | Status | What it demonstrates |
+| Project | Status | What it covers |
 |---|---|---|
 | [**Healthcare Fraud Detection**](https://github.com/kamjula/healthcare-fraud-detection) | Implemented | Synthetic claims pipeline with configurable rules, XGBoost scoring, hybrid risk scoring, Docker, pytest, and SQL analysis |
-| [**CausalLab**](https://github.com/kamjula/causallab) | Active development | A/B simulation, treatment-effect estimation, power/sample-size calculations, CUPED variance reduction, and defensive statistical tests |
+| [**CausalLab**](https://github.com/kamjula/causallab) | Implemented | A/B simulation, sample-size planning, CUPED variance reduction, sequential testing, segment-level lift, T-learner treatment effects, a Streamlit dashboard, pytest, and CI |
 
 ---
 
@@ -157,18 +157,18 @@ Selected systems that show how I approach **AI reliability, data quality, APIs, 
 
 ## Engineering Principles
 
-- **Evaluate before claiming:** project metrics are tied to reproducible synthetic or portfolio evaluations.
-- **Document limitations:** synthetic data, model boundaries, and deployment caveats are called out explicitly.
-- **Prefer reliable systems over flashy demos:** validation, observability, access control, and failure handling are part of the implementation.
+- **Measure first:** every project metric comes from a reproducible evaluation run in the repository.
+- **Write down the limits:** each README lists its synthetic-data, model, and deployment caveats.
+- **Build the unglamorous parts too:** validation, observability, access control, and failure handling are part of the implementation, not an afterthought.
 
 ---
 
 ## Selected Certifications
 
-- **Building with the Claude API** — Anthropic
-- **Claude Code 101** — Anthropic
-- **AI Fluency: Framework & Foundations** — Anthropic
-- **Machine Learning A-Z: AI, Python & R** — Udemy
+- Building with the Claude API (Anthropic)
+- Claude Code 101 (Anthropic)
+- AI Fluency: Framework & Foundations (Anthropic)
+- Machine Learning A-Z: AI, Python & R (Udemy)
 
 <div align="center">
 
