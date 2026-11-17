@@ -78,7 +78,7 @@ A few projects covering AI reliability, data quality, APIs, and evaluation.
 ### RoboOps: Robotics Fleet Monitoring & Condition Analytics
 
 <a href="https://roboops-platform.vercel.app/">
-  <img src="https://raw.githubusercontent.com/kamjula/roboops-platform/main/frontend/public/roboops-preview.png" alt="RoboOps fleet monitoring dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/kamjula/roboops-platform/main/frontend/public/roboops-preview.png" alt="RoboOps fleet monitoring and condition analytics" width="100%" />
 </a>
 
 **Problem:** monitor a robot fleet end to end (telemetry, alerts, maintenance) on synthetic data, without treating anomaly signals as failure predictions.  
