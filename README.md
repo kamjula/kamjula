@@ -1,54 +1,64 @@
 <div align="center">
 
-# Sravani Kamjula
+# Hi, I'm Sravani Kamjula 👋
 
 ### AI/ML Engineer | Generative AI | Python | RAG | FastAPI
 
-[Portfolio](https://sravaniportfoli.netlify.app/) ·
-[LinkedIn](https://www.linkedin.com/in/sravani-kamjula/) ·
-[Email](mailto:sravanikamjula@gmail.com) ·
-[Kaggle](https://www.kaggle.com/sravanikamjula)  
-**Building reliable AI systems from data to deployment.**  
+<a href="https://sravaniportfoli.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/sravani-kamjula/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+<a href="mailto:sravanikamjula@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.kaggle.com/sravanikamjula"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+
 <img src="https://komarev.com/ghpvc/?username=kamjula&label=Profile%20views&style=flat" alt="GitHub profile views" />
 
 </div>
 
 ---
 
-## About
+## About me
 
-<table>
-<tr>
-<td width="72%">
+- 🔭 I'm an AI/ML Engineer. I build GenAI and machine learning systems in Python, from the data pipeline to the API and the evaluation around it
+- 🚀 Recent builds: **DataPulse**, a GenAI data reliability copilot (ML anomaly detection + RAG root-cause diagnosis), and **RoboOps**, a robotics fleet monitoring platform (FastAPI, React, Kafka, PostgreSQL)
+- 🌱 Currently working on LLM evaluation, LangGraph workflows, and RAG that cites its sources and says "I don't know" when it should
+- 🎓 M.S. in Data Analytics, Indiana Wesleyan University
+- 👯 Open to AI/ML Engineer, Machine Learning Engineer, and Generative AI Engineer roles
+- 💬 Ask me about RAG, LLM evaluation, anomaly detection, FastAPI, and data quality
+- ⚡ I care about systems that are measurable, easy to inspect, and clear about where they fail
 
-I build AI/ML systems end to end: data pipelines, machine learning, grounded GenAI, APIs, and the evaluation around them.
+---
 
-Getting a model or an LLM call to work is the easy part. Most of my time goes into making systems **measurable, easy to inspect, and clear about where they fail**.
+## Tech Stack
 
-**Engineering flow**
+**AI / ML**  
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge" alt="OpenAI" />
 
-<img src="https://img.shields.io/badge/Data%20%26%20Telemetry-2563EB?style=flat-square&logo=postgresql&logoColor=white" alt="Data and Telemetry" />
-→
-<img src="https://img.shields.io/badge/ML%20Detection-4F46E5?style=flat-square&logo=scikitlearn&logoColor=white" alt="ML Detection" />
-→
-<img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="RAG and LLMs" />
-→
-<img src="https://img.shields.io/badge/FastAPI-0F766E?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-→
-<img src="https://img.shields.io/badge/Evaluation%20%26%20Observability-475569?style=flat-square&logo=grafana&logoColor=white" alt="Evaluation and Observability" />
+**Backend & Data**  
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" alt="SQL" />
+<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka" />
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark" />
+<img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow" />
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
 
-**Focus areas:** Generative AI · RAG · ML systems · data reliability · API engineering
+**Cloud & Delivery**  
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge" alt="AWS" />
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 
-**Open to:** AI/ML Engineer · Machine Learning Engineer · Generative AI Engineer · AI Engineer
-
-</td>
-<td width="28%" align="center">
-
-<img src="https://raw.githubusercontent.com/kamjula/kamjula/main/assets/ai-ml-engineering.svg" alt="AI/ML engineering systems visual" width="230" />
-
-</td>
-</tr>
-</table>
+Also: RAG · NLP · anomaly detection · LLM evaluation · REST APIs · ETL/ELT · data quality
 
 ---
 
@@ -144,17 +154,6 @@ A few projects covering AI reliability, data quality, APIs, and evaluation.
 
 ---
 
-## Core Stack
-
-| Area | Working stack |
-|---|---|
-| **AI / ML** | Python · Generative AI · LLMs · RAG · LangChain · LangGraph · scikit-learn · NLP · anomaly detection · evaluation |
-| **AI Applications** | FastAPI · REST APIs · Claude API · OpenAI · grounded retrieval · guardrails · validation · logging |
-| **Data Systems** | SQL · PostgreSQL · PySpark · Apache Spark · Airflow · ETL/ELT · data quality · reconciliation |
-| **Cloud / Delivery** | AWS · GCP Vertex AI · Docker · Kubernetes · Git · GitHub · CI/CD-oriented workflows |
-
----
-
 ## Engineering Principles
 
 - **Measure first:** every project metric comes from a reproducible evaluation run in the repository.
@@ -169,9 +168,3 @@ A few projects covering AI reliability, data quality, APIs, and evaluation.
 - Claude Code 101 (Anthropic)
 - AI Fluency: Framework & Foundations (Anthropic)
 - Machine Learning A-Z: AI, Python & R (Udemy)
-
-<div align="center">
-
-**AI/ML Engineer · Generative AI · Python · RAG · FastAPI**
-
-</div>
